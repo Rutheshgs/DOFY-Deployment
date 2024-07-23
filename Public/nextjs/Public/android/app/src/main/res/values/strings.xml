@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Dofy</string>
+    <string name="title_activity_main">Dofy</string>
+    <string name="package_name">com.dofy.public</string>
+    <string name="custom_url_scheme">com.dofy.public</string>
+</resources>

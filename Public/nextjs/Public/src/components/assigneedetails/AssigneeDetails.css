@@ -1,0 +1,24 @@
+.card {
+    border: 0;
+    box-shadow: none;
+}
+
+.card .body {
+    font-size: 14px;
+    color: #424242;
+    padding: 0px 10px;
+    font-weight: 400;
+}
+
+.profile-page .profile-header .profile-image img {
+    border-radius: 50%;
+    margin-top: 10%;
+    width: 80px;
+    border: 3px solid #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23)
+}
+
+.job_post {
+    white-space: nowrap;
+    font-size: 12px;
+}

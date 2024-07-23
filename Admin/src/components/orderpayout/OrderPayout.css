@@ -1,0 +1,97 @@
+.referral-card-sp {
+    position: absolute;
+    padding: 10px;
+    width: 250px !important;
+    top: 0% !important;
+    right: 35% !important;
+    background-color: #004E73;
+    z-index: 1 !important;
+}
+
+.referral-card-sp ion-item {
+    --background: #004E73 !important;
+    --min-height: 30px !important;
+}
+
+.referral-card-sp ion-text {
+    text-transform: capitalize !important;
+    color: rgb(245, 243, 243);
+    font-size: 12px !important;
+}
+
+.referral-icon ion-icon {
+    position: absolute;
+    left: 17%;
+}
+
+@media (max-width:768px) and (min-width:510px) {
+    .referral-icon ion-icon {
+        position: absolute;
+        left: 30%;
+    }
+
+    .referral-card-sp {
+        position: absolute;
+        padding: 10px;
+        width: 250px !important;
+        top: 60% !important;
+        right: 25% !important;
+        background-color: #004E73;
+        z-index: 1 !important;
+    }
+}
+
+@media (max-width:425px) {
+    .referral-icon ion-icon {
+        position: absolute;
+        left: 28%;
+    }
+
+    .referral-card-sp {
+        position: absolute;
+        padding: 10px;
+        width: 250px !important;
+        top: 0% !important;
+        right: 30% !important;
+        background-color: #004E73;
+        z-index: 1 !important;
+    }
+}
+
+@media (max-width:375px) and (min-width:321px) {
+    .referral-icon ion-icon {
+        position: absolute;
+        left: 30%;
+    }
+
+    .referral-card-sp {
+        position: absolute;
+        padding: 10px;
+        width: 250px !important;
+        top: 60% !important;
+        right: 20% !important;
+        background-color: #004E73;
+        z-index: 999 !important;
+    }
+}
+
+@media (max-width:320px) {
+    .referral-icon ion-icon {
+        position: absolute;
+        left: 35%;
+    }
+
+    .referral-card-sp {
+        position: absolute;
+        padding: 10px;
+        width: 250px !important;
+        top: 0% !important;
+        right: 10% !important;
+        background-color: #004E73;
+        z-index: 1 !important;
+    }
+}
+
+.color-white {
+    border: 1px solid white;
+}

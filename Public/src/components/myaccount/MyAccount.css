@@ -1,0 +1,68 @@
+.ma_bg {
+    --background: url(../../assets/images/myaccountbg_mob.png) 0 0/100% 100% no-repeat;
+}
+
+.ma_bg1 {
+    --background: url(../../assets/images/myaccountbg_web.png) 0 0/100% 100% no-repeat;
+}
+
+.my-account-button-update {
+    color: white;
+    --background: linear-gradient(to bottom, #FDC93A 0%, rgb(185, 155, 34) 100%);
+    --border-radius: 25px;
+}
+
+.my-account-button-cancel {
+    color: white;
+    --background: linear-gradient(to bottom, #91A0E2 0%, rgba(44, 98, 185, 0.34) 100%);
+    --border-radius: 25px;
+}
+
+.my-account-button-delete {
+    color: white;
+    --background: linear-gradient(to bottom, rgb(238, 39, 39) 0%, rgba(250, 11, 15, 0.34) 100%);
+    --border-radius: 25px;
+}
+
+.login-close {
+    position: absolute;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.login-close ion-icon {
+    font-size: 25px;
+}
+.ma-close-icon{
+    float:left
+}
+
+@media screen and (max-width:510px) {
+    .login-close {
+        left: 23%;
+    }
+    .ap_padding-adjustment{
+        padding: 15px 20px !important;
+    
+    }
+    
+}
+.ap_lable-style{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #444851;
+}
+
+.ap_padding-adjustment{
+    padding: 15px 100px;
+
+}
+.ap_signin-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 34px;
+    color: #444851;
+}

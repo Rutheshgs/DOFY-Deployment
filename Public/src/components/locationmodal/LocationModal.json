@@ -1,0 +1,38 @@
+{
+    "in_en": {
+        "Help_us_to_know_your_location": "Help us to know your location",
+        "We_operate_in_the_following_States":"We operate in the following States",
+        "Select":"Select",
+        "Enter_your_pincode":"Enter your pincode*",
+        "Cant_Find_your_Location":"Can't Find Your Location*",
+        "Our_Services_in_this_Location": "Our Services in this Location",
+        "Search_Location_or_Pincode": "Search Location or Pincode",
+        "Search_Location":"SearchLocation"
+        
+       
+    },
+    "ae_ar": {
+        "Help_us_to_know_your_location": "ساعدنا في معرفة موقعك",
+        "We_operate_in_the_following_States":"نعمل في الدول التالية",
+        "Select":"انتقى",
+        "Enter_your_pincode":"أدخل الرمز السري الخاص بك*",
+        "select_Country":"حدد الدولة",
+        "Cant_Find_your_Location":"لا يمكن العثور على موقعك",
+        "Our_Services_in_this_Location": "خدماتنا في هذا الموقع",
+        "Search_Location_or_Pincode": "ابحث عن الموقع أو الرمز الشخصي",
+        "Search_Location":"ابحث عن الموقع"
+
+
+    },
+    "ae_en": {
+        "Help_us_to_know_your_location": "Help us to know your location",
+        "We_operate_in_the_following_States":"We operate in the following States",
+        "Select":"Select",
+        "Enter_your_pincode":"Enter your pincode*",
+        "Cant_Find_your_Location":"Can't Find Your Location*",
+        "Our_Services_in_this_Location": "Our Services in this Location",
+        "Search_Location_or_Pincode": "Search Location or Pincode",
+        "Search_Location":"SearchLocation"
+
+    }
+}

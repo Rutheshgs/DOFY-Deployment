@@ -1,0 +1,147 @@
+.repair-inst-title {
+    color: #004E73;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.repair-space {
+    margin-top: 40px;
+}
+
+.repair-inst-text {
+    padding-right: 5px;
+
+}
+
+.repair-inst-titles {
+    color: #004E73;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@media screen and (max-width:510px) {}
+
+.rd-header-row {
+    background: #526da6 url(../../assets/images/home/gadget-service.png);
+    background-size: cover;
+    color: white;
+    padding: 30px 0px 30px 10px;
+    height: 150px;
+}
+
+.rd-header-text {
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.rd-row {
+    background-color: white;
+    margin-top: -55px;
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.repair-devices-header-row {
+    padding: 10px 5px 0px 5px;
+    border-bottom: 1px solid rgb(226, 219, 219);
+}
+
+.repair-devices-text {
+    color: #004E73;
+    text-transform: uppercase;
+}
+
+.rd-summary-list-header {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.rd-summary-list-icon {
+    color: red;
+    padding-right: 5px;
+    padding-top: 0px;
+}
+
+.rd-summary-list-text {
+    padding-left: 20px;
+    padding-top: 0px;
+}
+
+/* repair physical condition */
+
+.rpc-card {
+    height: 85%;
+    border: 1px solid #eeeeee;
+}
+
+.rpc-addbutton {
+    width: 100px;
+    height: 30px;
+    margin-left: 120px;
+    color: #978bdd;
+}
+
+.rpc-removebutton {
+    width: 100px;
+    height: 30px;
+    margin-left: 120px;
+    color: rgb(249, 129, 129);
+}
+
+.rpc-buttonCol {
+    position: absolute;
+}
+
+.rpc-offerprice {
+    color: #978bdd;
+    font-size: 15px;
+}
+
+.rpc-allocatedrprice {
+    color: black;
+    font-size: 15px;
+}
+
+@media (max-width:510px) {
+    .rpc-addbutton {
+        width: 100px;
+        height: 30px;
+        margin-left: 170px;
+        color: #978bdd;
+    }
+
+    .rpc-removebutton {
+        width: 100px;
+        height: 30px;
+        margin-left: 170px;
+        color: rgb(249, 129, 129);
+    }
+
+    .rpc-card {
+        padding-top: 10px;
+        height: 100%;
+        border: 1px solid #eeeeee;
+    }
+}
+
+.repairtype-image {
+    font-size: 50px;
+    width: 60px;
+    height: 60px;
+    margin-left: -10px;
+}
+
+.ps_heading {
+    color: #004E73;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.ps_priceamount {
+    font-size: 18px;
+}
+
+.pricesummary_body {
+    margin-left: 50px;
+}

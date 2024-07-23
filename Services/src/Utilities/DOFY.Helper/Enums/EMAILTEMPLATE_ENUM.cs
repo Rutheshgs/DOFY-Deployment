@@ -1,0 +1,34 @@
+﻿namespace DOFY.Helper;
+
+public enum EMAILTEMPLATE_ENUM
+{
+    LOGIN_OTP = 1,
+
+    ORDER_PLACED = 2,
+
+    ORDER_RESHEDULED = 3,
+
+    ORDER_CANCELED = 4,
+
+    ORDER_PENDING = 5,
+
+    REPORT_DELAY = 6,
+
+    AMOUNT_REQUOTE = 7,
+
+    PAYMENTPROCESS_OTP = 8,
+
+    PAYMENT_SUCCESSFULL = 9,
+
+    PAYMENT_FAILED = 10,
+
+    ORDER_FAILED = 11,
+
+    ORDERCANCEL_REQUEST = 12,
+
+    CALLWASNOT_PICKED = 13,
+
+    CONTACT_US = 14,
+
+    DOWNLOAD_APP = 15,
+}

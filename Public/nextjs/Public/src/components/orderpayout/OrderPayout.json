@@ -1,0 +1,20 @@
+{
+    "in_en": {
+        "Selling_Price": "Selling Price",
+        "Promo_Bonus": "Promo Code ",
+        "Adjustment": "Adjustment",
+        "Total": "Total"
+    },
+    "ae_ar": {
+        "Selling_Price": "سعر البيع",
+        "Promo_Bonus": "Promo Code ",
+        "Adjustment": "Adjustment",
+        "Total": "المجموع"
+    },
+    "ae_en": {
+        "Selling_Price": "Selling Price",
+        "Promo_Bonus": "Promo Code",
+        "Adjustment": "Adjustment",
+        "Total": "Total"
+    }
+}

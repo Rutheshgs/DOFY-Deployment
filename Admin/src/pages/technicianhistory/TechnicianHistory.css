@@ -1,0 +1,200 @@
+.th-image {
+    width: 100px;
+    height: 100px;
+}
+
+.th-accordionheader {
+    border: 1px solid;
+}
+
+.th-accordioncontent {
+    border: 1px solid;
+    border-top: none;
+}
+
+.th-accordionheadername {
+    color: #004e73;
+    text-transform: uppercase;
+}
+
+.th-sales {
+    background-color: bisque;
+}
+
+.th-card {
+    width: 35px;
+    height: 35px;
+    background-color: red;
+    color: white;
+    font-size: smaller;
+}
+
+.th-cardborder {
+    border: 1px solid;
+}
+
+.divider-height {
+    min-height: 0px;
+}
+
+.th-cardname {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.badge_serviceType {
+    padding-left: 15px;
+    padding-right: 15px;
+    color: black;
+}
+
+.badge_productType {
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+}
+
+.phone_icon {
+    font-size: 25px;
+}
+
+.phone_number {
+    font-size: 16px;
+    margin-left: -20px;
+}
+
+.th-address {
+    font-size: 16px;
+}
+
+.tech-detail-item {
+    --min-height: 10px !important;
+}
+
+.badge-padding {
+    padding-left: 15px !important;
+}
+
+.tech-detail-item ion-badge {
+    margin: 0px;
+    font-size: 14px !important;
+    font-weight: unset;
+}
+
+.tech-detail-item ion-router-link {
+    font-size: 14px !important;
+}
+
+.page-titles {
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.th-contentbtn {
+    margin-left: 20px;
+    width: 50px;
+    height: 30px;
+
+}
+
+.th_order-title {
+    font-size: medium;
+    color: #6a95f9;
+}
+
+.th-headercontent {
+    padding-left: 10px;
+    font-size: 12px;
+    text-transform: capitalize;
+    color: black;
+    margin-right: 5px;
+}
+
+.th-headercontents {
+    padding-left: 10px;
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: black;
+    margin-right: 5px;
+}
+
+.refral {
+    background-color: rgb(91, 141, 91);
+}
+
+@media (max-width:500px) {
+    .th_ordercard-center {
+        text-align: center;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    .th_order-title {
+        font-size: smaller;
+    }
+}
+
+.hide-header {
+    display: none;
+}
+
+.page-headers {
+    margin-top: 25px !important;
+}
+
+ion-loading.custom-loading {
+    --background: #e3edff;
+    --spinner-color: #1c6dff;
+    color: #1c6dff;
+}
+
+.referral-card-th {
+    position: absolute;
+    padding: 10px;
+    width: 230px !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+    background-color: #004E73;
+    z-index: 1 !important;
+}
+
+.referral-card-th-nth {
+    top: -70% !important;
+}
+
+@media (max-width:768px) and (min-width:530px) {
+    .referral-card-th {
+        position: absolute;
+        padding: 10px;
+        width: 230px !important;
+        top: -2% !important;
+        right: 50% !important;
+        background-color: #004E73;
+        z-index: 1 !important;
+    }
+}
+
+@media (max-width:520px) {
+    .referral-card-th {
+        position: absolute;
+        padding: 10px;
+        width: 230px !important;
+        top: 10% !important;
+        right: 20% !important;
+        background-color: #004E73;
+        z-index: 1 !important;
+    }
+}
+
+.referral-card-th ion-item {
+    --background: #004E73 !important;
+    --min-height: 30px !important;
+}
+
+.referral-card-th ion-text {
+    text-transform: capitalize !important;
+    color: rgb(245, 243, 243);
+    font-size: 12px !important;
+}

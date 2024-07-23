@@ -1,0 +1,57 @@
+.chooseyourdevice-grid {
+    background: white;
+    color: var(--dofy-color-primary);
+    padding-bottom: 30px;
+    margin-bottom: 2px !important;
+}
+
+.chooseyourdevice-heading {
+    color: #004E73;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+@media screen and (max-width:510px) {
+    .chooseyourdevice-heading {
+        font-size: 17px;
+    }
+}
+
+.chooseyourdevice-card {
+    background: #fff;
+    height: 200px;
+    width: 160px;
+    border-radius: unset;
+    padding-top: 30px;
+    border-bottom: 4px solid #1E4496;
+}
+
+.chooseyourdevice-card:hover {
+    border: 1px dashed #1E4496;
+    border-bottom: 6px solid #1E4496;
+}
+
+.chooseyourdevice-card ion-img {
+    height: 80px;
+}
+
+.chooseyourdevice-card-text {
+    color: #004E73;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.chooseyourdevice-showall-btn {
+    background-color: #ffcc4e;
+    color: #004E73;
+}
+
+.chooseyourdevice-alldev-btn {
+    color: #004E73;
+    border: 2px solid #ffcc4e;
+    width: 60%;
+}
+
+.chooseyourdevice-grid .swiper-pagination {
+    bottom: -7px !important;
+}

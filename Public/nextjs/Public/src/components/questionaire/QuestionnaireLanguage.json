@@ -1,0 +1,32 @@
+{
+    "in_en": {
+        "Warranty_is_void": "Warranty is void due to hardware or physical defects..",
+        "Select_any_option": "Select any option",
+        "Finish": "Finish",
+        "Continue": "Continue",
+        "Back": "Back",
+        "Yes":"Yes",
+        "No":"No"
+
+    },
+    "ae_ar": {
+        "Warranty_is_void": "الضمان باطل بسبب عيوب في الأجهزة أو مادية ..",
+        "Select_any_option": "حدد أي خيار",
+        "Finish": "ينهي",
+        "Continue": "يكمل",
+        "Back": "خلف",
+        "Yes":"نعم",
+        "No":"لا"
+
+    },
+    "ae_en": {
+        "Warranty_is_void": "Warranty is void due to hardware or physical defects..",
+        "Select_any_option": "Select any option",
+        "Finish": "Finish",
+        "Continue": "Continue",
+        "Back": "Back",
+        "Yes":"Yes",
+        "No":"No"
+
+    }
+}

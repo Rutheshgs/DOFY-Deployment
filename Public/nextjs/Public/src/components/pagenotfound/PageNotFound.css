@@ -1,0 +1,50 @@
+.not-found-body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--dofy-color-primary-new);
+    height: 100vh;
+    width: 100vw;
+    color: #fff;
+    text-align: center;
+}
+
+.not-found {
+    width: 560px;
+    height: 225px;
+    margin-right: -10px;
+}
+
+.starry-sky {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.notfound-copy {
+    color: #fff;
+    position: fixed;
+    top: 25px;
+    right: 10%;
+    text-align: right;
+}
+
+.header-page-not-found {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.btn-page-not-found {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.all-stars {
+    animation: blinkblink 7s linear infinite;
+}
+
+@keyframes blinkblink {
+    50% {
+        opacity: 0.1;
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "in_en": {
+        "Orders": "Your Orders",
+        "Search": "Search your order",
+        "Repair_Amount": "Repair Amount : ₹",
+        "Sell_Amount": "Sell Amount:₹",
+        "Order_Date": "Order Date:",
+        "Your_Order_is": "Your Order is",
+        "Appointmenent_Date": "Appointmenent Date:",
+        "Continue": "Continue",
+        "No_records_found": "No records found",
+        "Order_No": "Order No",
+        "Selling_price": "Selling price",
+        "Appointment_date": " Appointmentdate",
+        "Status": "Status"
+    },
+    "ae_ar": {
+        "Orders": "طلبات",
+        "Search": "ابحث في طلبك",
+        "Repair_Amount": "مبلغ الإصلاح",
+        "Sell_Amount": "مبلغ البيع",
+        "Order_Date": "تاريخ الطلب",
+        "Your_Order_is": "طلبك هو",
+        "Appointmenent_Date": "تاريخ التعيين",
+        "Continue": "يكمل",
+        "No_records_found": "لا توجد سجلات",
+        "Order_No": "رقم الطلب",
+        "Selling_price": "سعر البيع",
+        "Appointment_date": " تاريخ الموعد",
+        "Status": "حالة"
+    },
+    "ae_en": {
+        "Orders": "Orders",
+        "Search": "Search your order",
+        "Repair_Amount": "Repair Amount : ₹",
+        "Sell_Amount": "Sell Amount:₹",
+        "Order_Date": "Order Date:",
+        "Your_Order_is": "Your Order is",
+        "Appointmenent_Date": "Appointmenent Date:",
+        "Continue": "Continue",
+        "No_records_found": "No records found",
+        "Order_No": "Order No",
+        "Selling_price": "Selling price",
+        "Appointment_date": " Appointmentdate",
+        "Status": "Status"
+    }
+}

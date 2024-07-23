@@ -1,0 +1,23 @@
+{
+    "in_en": {
+       "Search_anything...":"Search anything...",
+       "Device":"Device",
+       "Brand":"Brand",
+       "Pick_Model":"Pick Model",
+       "Sell":"Sell" 
+    },
+    "ae_ar": {
+        "Search_anything...":"ابحث عن أي شيء",
+        "Device":"جهاز",
+        "Brand":"ماركة",
+        "Pick_Model":"اختر الموديل",
+        "Sell":"يبيع" 
+    },
+    "ae_en": {
+        "Search_anything...":"Search anything...",
+        "Device":"Device",
+        "Brand":"Brand",
+        "Pick_Model":"Pick Model",
+        "Sell":"Sell" 
+    }
+}

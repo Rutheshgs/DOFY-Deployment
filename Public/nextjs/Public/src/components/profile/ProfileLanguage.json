@@ -1,0 +1,40 @@
+{
+    "in_en": {
+        "My_Account": "My Account",
+        "Saved_Addresses": "Saved Addresses",
+        "Orders": "Orders",
+        "Logout": "Logout",
+        "Are_You_Sure":"Are you sure you want to Logout?",
+        "Yes":"Yes",
+        "No":"No",
+        "Allow_Location":"Allow Location",
+        "Cancel":"Cancel"
+
+        
+    },
+    "ae_ar": {
+        "My_Account": "حسابي",
+        "Saved_Addresses": "العناوين المحفوظة",
+        "Orders": "طلبات",
+        "Logout": "تسجيل خروج",
+        "Are_You_Sure":"هل أنت متأكد أنك تريد تسجيل الخروج",
+        "Yes":"نعم",
+        "No":"إلغ",
+        "Allow_Location":"هل تحتاج إلى إجابات ، ابحث عنها هنا؟",
+        "Cancel":"إلغ"
+
+      
+    },
+    "ae_en": {
+        "My_Account": "My Account",
+        "Saved_Addresses": "Saved Addresses",
+        "Orders": "Orders",
+        "Logout": "Logout",
+        "Are_You_Sure":"Are you sure you want to Logout?",
+        "Yes":"Yes",
+        "No":"No",
+        "Allow_Location":"Allow Location",
+        "Cancel":"Cancel"
+
+    }
+}

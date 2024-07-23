@@ -1,0 +1,24 @@
+.question-text {
+    font-size: 14px;
+    color: grey;
+}
+
+.question-value {
+    font-size: 14px;
+    color: grey;
+}
+
+@media (max-width:768px) {
+    .qu_font-size {
+        font-size: larger;
+    }
+}
+.qu_repairName{
+    font-size:medium;
+}
+.card-size-first,.card-size-second,.card-size-fourth{
+    height: 100%;
+}
+.qu_title{
+    font-size: larger;
+}

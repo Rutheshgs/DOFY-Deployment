@@ -1,0 +1,248 @@
+.faq-answer ion-label {
+    overflow: unset !important;
+    white-space: pre-line !important;
+}
+
+.faq-answer {
+    font-size: 14px;
+    --background:#fff;
+}
+
+.faq-col {
+    padding: 20px;
+}
+
+.faq-question {
+    font-size: 15px;
+    font-weight: 600;
+    box-shadow: 0px 3px 26px #0000000B;
+    border: 1px solid #E6EBF0;
+    --background: #fff;
+}
+
+.faq_text-style {
+    color: #425367;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.faq-answer-list {
+    background-color: #fff;
+    box-shadow: 0px 3px 26px #0000000B;
+    border: 1px solid #E6EBF0;
+    font-size: 14px;
+    --background:#fff;
+}
+
+.faq-question .item-icon {
+    display: none !important;
+}
+
+.ion-accordion-toggle-icon {
+    display: none !important;
+}
+.labelblue{
+    color: #2350b2;
+}
+.faq-question .labelblue{
+    color: #2350b2;
+
+}
+.accordion-gap{
+    margin-bottom: 10px;
+}
+.accordion-open{
+    color: #2350b2;
+    font-weight: 700;
+}
+.faq_padding{
+padding: 0px 100px;   
+}
+
+.ion-padding{
+    padding-bottom: 2px;
+}
+@media screen and (max-width:1024px) {
+    .faq_padding {
+        padding: 30px 30px !important;
+    }
+
+    .faq_title-style {
+        font-size: 20px !important;
+    }
+
+    .faq-question {
+        font-size: 14px !important;
+    }
+
+    .item.sc-ion-label-md-h,
+    .item .sc-ion-label-md-h {
+        text-overflow: unset !important;
+        white-space: unset !important;
+
+    }
+
+    .faq-answer-list {
+        background-color: #fff;
+        box-shadow: 0px 3px 26px #0000000B;
+        border: 1px solid #E6EBF0;
+        font-size: 14px;
+    }
+
+    .faq_text-style {
+        color: #425367;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .faq_padding {
+        padding: 0px 30px !important;
+    }
+
+    .faq_title-style {
+        font-size: 18px !important;
+    }
+
+    .item.sc-ion-label-md-h,
+    .item .sc-ion-label-md-h {
+        text-overflow: unset !important;
+        white-space: unset !important;
+
+    }
+
+    .faq-answer-list {
+        background-color: #fff;
+        box-shadow: 0px 3px 26px #0000000B;
+        border: 1px solid #E6EBF0;
+        font-size: 15px;
+    }
+
+    .faq_text-style {
+        color: #425367;
+        font-size: 14px;
+    }
+
+    .faq-answer {
+        font-size: 15px;
+        font-weight: 600;
+        --background: #fff;
+        color: rgb(84, 83, 83);
+    }
+
+    .faq-answer ion-label {
+        font-size: 16px;
+    }
+
+    .faq-question {
+        font-size: 15px !important;
+        font-weight: 600;
+        box-shadow: 0px 3px 26px #0000000B;
+        border: 1px solid #E6EBF0;
+        --background: #fff;
+    }
+}
+
+@media screen and (max-width:510px) {
+    .faq_padding {
+        padding: 0px 10px !important;
+    }
+
+    .faq_title-style {
+        font-size: 18px !important;
+    }
+
+    .item.sc-ion-label-md-h,
+    .item .sc-ion-label-md-h {
+        text-overflow: unset !important;
+        white-space: unset !important;
+
+    }
+
+    .faq-answer-list {
+        background-color: #fff;
+        box-shadow: 0px 3px 26px #0000000B;
+        border: 1px solid #E6EBF0;
+        font-size: 15px;
+    }
+
+    .faq_text-style {
+        color: #425367;
+        font-size: 13px;
+    }
+
+    .faq-answer {
+        font-size: 12px;
+        font-weight: 200;
+        --background: #fff;
+        color: rgb(127, 127, 127);
+    }
+
+    .faq-answer ion-label {
+        font-size: 15px;
+    }
+
+    .faq-question {
+        font-size: 13px !important;
+        font-weight: 600;
+        box-shadow: 0px 3px 26px #0000000B;
+        border: 1px solid #E6EBF0;
+        --background: #fff;
+    }
+}
+
+
+
+
+.faq_title-style {
+    color: #425367;
+    font-size: 30px;
+    font-weight: 800;
+    padding: 0px !important;
+}
+
+.faq_padding {
+    padding: 0px 100px;
+}
+
+
+
+/* new line code faq */
+
+.accordion-open ion-icon{
+    color: #2350b2;
+    font-weight: 700;
+}
+
+.accordion-container ion-item{
+    border-radius: 10px;
+    --background: #fff;
+    border: 1px solid #E6EBF0;
+    box-shadow: 0px 3px 26px #0000000A;
+    visibility: inherit;
+
+}
+
+.accordion-container ion-card-content{
+     color: #6E727B;;
+}
+
+.accordion-lable{
+    overflow: unset;
+    text-overflow: unset !important;
+    white-space: unset !important;
+}
+
+@media (max-width:600px){
+    .accordion-container ion-item{
+        border-radius: 10px;
+        --background: #fff;
+        border: 1px solid #E6EBF0;
+        box-shadow: 0px 3px 26px #0000000A;
+        font-size: medium;
+
+    }
+}
+.text-align-justify{
+    text-align: justify !important;
+}

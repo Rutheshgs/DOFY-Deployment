@@ -1,0 +1,22 @@
+.device--modal-header {
+    height: 50px;
+}
+
+@media (max-width:768px) {
+    .sd_mobile-content-center {
+        text-align: -moz-center !important;
+        text-align: -webkit-center !important;
+        justify-content: center !important;
+    }
+}
+.sd_mobile-content-center-uae{
+    text-align: -moz-center !important;
+    text-align: -webkit-center !important;
+    justify-content: left !important;
+}
+
+.sd_mobile-content-center-india{
+    text-align: -moz-center !important;
+    text-align: -webkit-center !important;
+    justify-content: center !important;
+}

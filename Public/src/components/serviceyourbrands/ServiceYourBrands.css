@@ -1,0 +1,104 @@
+.select-your-brands-grid {
+    background: white;
+    color: var(--dofy-color-primary);
+    padding-bottom: 30px;
+    margin-bottom: 2px !important;
+}
+
+.select-your-brands-text {
+    font-size: 23px;
+    font-weight: 700;
+    color: #004E73;
+}
+
+@media screen and (max-width:510px) {
+    .select-your-brands-text {
+        font-size: 17px;
+        white-space: nowrap;
+    }
+}
+
+.service-card {
+    background: #fff;
+    height: 110px;
+    width: 110px;
+    z-index: -1;
+}
+
+.service-card:hover {
+    z-index: 1;
+    border: 1px dashed #1E4496;
+    transform: scale(1.01);
+    transition: all 0.2s ease-in-out 0s;
+    border-bottom: 4px solid #1E4496;
+}
+
+.service-card-content {
+    background: #eee;
+    padding: 0 0 5px 0;
+}
+
+.select-your-brands-card {
+    height: 80%;
+    width: 90%;
+}
+
+.select-your-brands-card ion-img {
+    height: 50px;
+}
+
+.select-your-brands-segment {
+    color: #1e4496;
+}
+
+.swiper-wrapper .brand-swiper-wrapper .slide-active {
+    color: #1e4496;
+    font-weight: bold;
+    border-radius: unset;
+    border-bottom: 3px solid #1e4496;
+    opacity: 1;
+}
+
+.brand-swiper-wrapper {
+    border-bottom: 1px solid #8393b8;
+}
+
+.sb-pattern-bg {
+    background-color: #eee;
+}
+
+.brand-swipper .swiper-button-prev {
+    margin-top: -10px;
+}
+
+.custom-brand-nav ion-icon {
+    color: #004E73;
+    font-size: 25px;
+}
+
+.coming-soon-container {
+    position: relative;
+}
+
+.repair-coming-soon {
+    position: absolute;
+    width: 80px;
+    height: auto;
+    top: 5px;
+    left: 25px;
+    z-index: 1;
+}
+
+@media screen and (max-width: 1024px)and (min-width:769px) {
+    .repair-coming-soon {
+        top: 20px;
+        left: 25px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width:510px) {
+    .repair-coming-soon {
+        top: 20px;
+        left: 30px !important;
+    }
+}

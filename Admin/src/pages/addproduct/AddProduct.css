@@ -1,0 +1,9 @@
+.Ap_Image{
+    margin-top: 56px;
+}
+
+@media (max-width:510px) {
+    .Ap_Image {
+        margin-top: 56px;
+    }
+}

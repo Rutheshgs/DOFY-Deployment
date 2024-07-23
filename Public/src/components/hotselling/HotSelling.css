@@ -1,0 +1,113 @@
+.hot-selling-grid {
+    background: white;
+    color: var(--dofy-color-primary);
+    padding-bottom: 30px;
+    margin-top: 2px !important;
+    margin-bottom: 2px !important;
+}
+
+.hotselling-header {
+    color: #004E73;
+    text-transform: capitalize;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.hot-selling-card {
+    position: relative;
+    background: #fff !important;
+    padding: unset;
+    margin: unset;
+    border-radius: 0px;
+    height: 230px;
+    width: 190px;
+    border-bottom: 3px solid var(--dofy-color-primary);
+    border-top: 1px solid var(--dofy-color-primary);
+}
+
+.hot-selling-card:hover {
+    transform: scale(1);
+    transition: all 0.2s ease-in-out 0s;
+    border-radius: 5px;
+    border: 1px dotted var(--dofy-color-primary);
+    border-bottom: 3px solid var(--dofy-color-primary);
+}
+
+.hot-selling-card:hover .hot-selling-price-save {
+    background-color: #ffcc4e;
+    border: 1px dashed #004E73;
+    color: #004E73;
+}
+
+.hot-selling-card-footer {
+    position: absolute;
+    bottom: 0px;
+    background: #eee;
+    padding: 10px;
+    color: var(--ion-color-warning) !important;
+    text-transform: capitalize;
+    font-size: 10px;
+}
+
+.hot-selling-card-footer ion-icon {
+    position: absolute;
+    margin-top: 2.6px;
+    margin-left: -13px;
+}
+
+.hot-selling-price-original {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.hot-selling-price-drop {
+    text-decoration: line-through;
+    font-weight: 600;
+}
+
+.hot-selling-name {
+    font-size: 14px;
+}
+
+.hot-selling-price-offer {
+    color: var(--dofy-color-primary);
+    font-weight: 600;
+}
+
+.hot-selling-price-save {
+    text-transform: uppercase;
+    font-size: 10px;
+    padding: 2px;
+    margin: unset;
+    height: 16px !important;
+    border-radius: 2px;
+    line-height: 14px;
+}
+
+.offer-end-soon {
+    color: white;
+    position: absolute;
+    left: -20px;
+    top: 0px;
+    font-weight: unset;
+    font-size: 14px;
+    width: 40%;
+    white-space: unset;
+}
+
+@media screen and (max-width:1024px) {
+    .offer-end-soon {
+        left: -24px;
+    }
+}
+
+@media screen and (max-width:510px) {
+    .hotselling-header {
+        font-size: 17px;
+    }
+
+    .offer-end-soon {
+        width: 45%;
+        left: -30px;
+    }
+}

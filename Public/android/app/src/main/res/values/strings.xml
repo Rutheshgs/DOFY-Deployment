@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">DOFY</string>
+    <string name="title_activity_main">DOFY</string>
+    <string name="package_name">io.ionic.starter</string>
+    <string name="custom_url_scheme">io.ionic.starter</string>
+    <string name="facebook_app_id">734193701052747</string>
+    <string name="fb_login_protocol_scheme">fb734193701052747</string>
+    <string name="facebook_client_token">f13d3245dd4d36da08a524854ee74d39</string>
+</resources>

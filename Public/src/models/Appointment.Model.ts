@@ -1,0 +1,23 @@
+export interface IAppointmentModel {
+    Id: number,
+    Created: any,
+    CreatedBy: number,
+    Active: true,
+    Modified: any,
+    ModifiedBy: number,
+    ValidationErrors: {},
+    OrderId: number,
+    AssigneeId: any,
+    UserAddresId: number,
+    AppointmentDate: any,
+    StartTime: any,
+    EndTime: any,
+    Remarks: string,
+    TechnicianComments: string,
+    RowOrder: number,
+    IsReschedule: true,
+    AppointmentCity: string,
+    AppointmentPincode: number,
+    address:string,
+    reasonId?: any
+}

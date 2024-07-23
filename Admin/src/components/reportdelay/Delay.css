@@ -1,0 +1,13 @@
+.D_padding {
+    padding-top: 5px;
+}
+.d_bg-color{
+    background-color:#FFEE63;
+}
+.D_text{
+    color: #004E73;
+    font-weight: 500;
+    font-size: 15px;
+    white-space: pre;
+    text-align: center;
+}

@@ -1,0 +1,57 @@
+{
+    "in_en": {
+        "Cant_Find_Your_Location": "Can't Find Your Location",
+        "Select_Gadget": "Select Gadget *",
+        "Select_Brand": "Select Brand *",
+        "Select_Model": "Select Model *",
+        "Select_Varient": "Select Varient *",
+        "Full_Name":"Full Name *",
+        "Mobile_Number":"Mobile Number *",
+        "City":"City *",
+        "Area":"Area *",
+        "Email":"Email *",
+        "Submit":"Submit",
+        "Update":"Update",
+        "Cancel":"Cancel",
+        "Error":"Required *",
+        "Please_Provide_us":"Please Provide us with the Location we will get back to you"
+
+    },
+    "ae_ar": {
+        "Cant_Find_Your_Location": "لموقع العثور على جهازك",
+        "Select_Gadget": "حدد الجهاز الإلكتروني *",
+        "Select_Brand": "اختر العلامة التجارية*",
+        "Select_Model": "اختر الموديل",
+        "Select_Varient": "حدد البديل*",
+        "Full_Name":"الاسم الكامل",
+        "Mobile_Number":"رقم الهاتف المحمول",
+        "Email":"بريد إلكتروني",
+        "City":"مدينة",
+        "Area":"منطقة *",
+        "Submit":"يُقدِّم",
+        "Update":"تحديث",
+        "Cancel":"يُقدِّم",
+        "Error":"مطلوب *",
+        "Please_Provide_us":"يرجى تزويدنا بتفاصيل جهازك وسنعاود الاتصال بك"
+
+    },
+    "ae_en": {
+        "Cant_Find_Your_Location": "Can't Find Your Location",
+        "Select_Gadget": "Select Gadget *",
+        "Select_Brand": "Select Brand *",
+        "Select_Model": "Select Model *",
+        "Select_Varient": "Select Varient *",
+        "Full_Name":"Full Name *",
+        "Mobile_Number":"Mobile Number *",
+        "Email":"Email *",
+        "City":"City *",
+        "Area":"Area *",
+        "Submit":"Submit",
+        "Update":"Update",
+        "Cancel":"Cancel",
+        "Error":"Required *",
+        "Please_Provide_us":"Please Provide us with the Location we will get back to you"
+
+
+    }
+}

@@ -1,0 +1,130 @@
+.login_checkbox {
+    margin-right: 10px;
+    --size: 15px;
+    
+}
+
+.login_icon {
+    font-size: 30px;
+    margin-right: 10px;
+   
+   
+}
+
+.login-close {
+    position: absolute;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.login-back {
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+    left: 2%;
+}
+
+.login-close ion-icon {
+    font-size: 25px;
+}
+
+.vs-resend-hidden {
+    color: darkgray;
+}
+
+.vs-resend-button {
+    cursor: pointer;
+}
+
+.otp-box {
+    margin: 10px ;
+}
+
+.otp-box input {
+    width: 40px !important;
+    height: 40px;
+    border-radius: 5px;
+    background: #fff;
+    border: none;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.vc_otp{
+    padding: 10px;
+    padding: 0px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+}
+.fp_btn-color{
+    background: #2d4fb0;
+    border-radius: 5px;
+}
+.rp_btn-otp{
+    padding-top: 25px;
+    color: #C4C4C4;
+}
+.fp_resend{
+    font-size: small;
+}
+.fp_account-end{
+    font-size: small;
+    text-align: center;
+}
+.fp_text-gap{
+    font-weight: 400;
+    padding-top: 25px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+}
+.fp_pass{
+    color:#2d4fb0;
+}
+.fp_comp-size{
+   padding: 0px;
+}
+@media (min-width:375px) and (max-width:768px){
+    .otp-box{
+        margin: 6.5px;
+    }
+    .otp-box input {
+        width: 40px !important;
+        height: 40px;
+        border-radius: 5px;
+        background: #e5e5e5;
+        border: none;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    }
+}
+@media (max-width:370px){
+    .otp-box{
+        margin: 6px;
+    }
+    .otp-box input {
+        width: 30px !important;
+        height: 30px;
+        border-radius: 5px;
+        background: #e5e5e5;
+        border: none;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    }
+}
+
+.ls-module{
+    margin-top: -4px;
+}
+
+.fl_content-style::part(background) {
+    background: #fff;
+
+}
+
+.fl_content-style::part(scroll) {
+    height: 100%;
+}
+
+.fp_backtosignin:hover{
+    color: #2d4fb0;
+ }
+ 

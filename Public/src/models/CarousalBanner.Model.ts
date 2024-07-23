@@ -1,0 +1,16 @@
+export interface ICarousalBannerModel {
+    Title?: string,
+    Content?: string,
+    DisplayInList?: boolean,
+    Enabled?: boolean,
+    ThumbnailPath: any,
+    RowOrder?: number,
+    Id?: number,
+    Created?: any,
+    CreatedBy?: number,
+    Active?: boolean,
+    Modified?: any,
+    ModifiedBy?: number,
+    IsValid?: boolean,
+    DefaultBanner?: boolean,
+}

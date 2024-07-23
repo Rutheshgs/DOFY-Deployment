@@ -1,0 +1,38 @@
+.mobile {
+    text-align: center;
+}
+
+.mail {
+    text-align: right;
+}
+
+.girdheader {
+    background-color: #3473d9;
+    margin: 10px;
+    margin-top: 110px;
+    color: #fff;
+}
+
+@media (min-width:780px) and (max-width:1440px) {
+    .display {
+        display: none;
+    }
+}
+
+@media (max-width:500px) {
+    .ud_edit-button {
+        float: right;
+    }
+
+    .ud_name {
+        font-weight: 600;
+        font-size: 15px;
+        color: black;
+    }
+}
+
+ion-loading.custom-loading {
+    --background: #e3edff;
+    --spinner-color: #1c6dff;
+    color: #1c6dff;
+}

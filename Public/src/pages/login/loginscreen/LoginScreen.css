@@ -1,0 +1,232 @@
+.login-pattern-bg {
+    background: transparent url(../../../assets/images/pattern.png);
+}
+
+.ls-grid {
+    background-color: #fff;
+}
+
+.login-text {
+    font-size: 13px;
+    font-weight: 200;
+    color: #425367;
+    margin-right: 10px;
+}
+
+.login-icon {
+    width: 14px;
+    height: 14px;
+}
+
+.ls_input-style {
+    outline: 1px solid #C4C4C4;
+    border-radius: 5px;
+    background-color: #ffff;
+    text-indent: 5px;
+}
+
+.ls_btn-color {
+    background-color: #2D4FB0;
+    border-radius: 5px;
+}
+
+.ls_padding-adjustment {
+    padding: 50px 100px;
+}
+
+.ls_signin-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #444851;
+}
+
+.ls_fp-text {
+    float: right;
+    color: #2D4FB0;
+    font-size: small;
+}
+
+.ls_signup {
+    color: #2D4FB0;
+}
+
+.ls_lable-style {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #444851;
+    position: relative;
+    top: 3;
+}
+
+.ls_padding-adjustment {
+    padding: 15px 100px;
+}
+
+.fl_content-style::part(background) {
+    background: #fff;
+
+}
+
+.fl_content-style::part(scroll) {
+    color: #fff;
+    height: 100%;
+}
+
+.ls_login-back {
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+.ls-close-icon {
+    float: right;
+}
+
+.ls_login-close {
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+.check-to-accept {
+    position: absolute;
+}
+
+.check-text {
+    margin-left: 24px;
+}
+
+.check-text-ae {
+    margin-right: 24px;
+}
+.ls_outline-style{
+    outline: 1px solid #3333;
+    border-radius: 5px;
+    text-indent: 10px;
+}
+@media  (max-width:370px){
+    .ls_padding-adjustment {
+        padding: 60px 15px;
+    }
+
+    .ls_signin-text {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 34px;
+        color: #444851;
+    }
+
+    .rp_signup {
+        text-align: left;
+    }
+
+    .ls_input-style {
+        outline: 1px solid #C4C4C4;
+        border-radius: 5px;
+        background-color: #ffff;
+        text-indent: 10px;
+    }
+
+    .ls_btn-color {
+        background-color: #2D4FB0;
+        border-radius: 5px;
+    }
+
+
+    .ls_signin-text {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 34px;
+        color: #444851;
+    }
+
+    .ls_fp-text {
+        float: right;
+        color: #2D4FB0;
+        font-size: small;
+    }
+
+    .ls_signup {
+        color: #2D4FB0;
+    }
+
+    .ls_lable-style {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        color: #444851;
+        margin-top: 30px;
+    }
+}
+
+
+@media (min-width:375px) and (max-width:768px) {
+    .ls_padding-adjustment {
+        padding: 60px 20px;
+    }
+
+    .ls_signin-text {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 34px;
+        color: #444851;
+    }
+
+    .rp_signup {
+        text-align: left;
+    }
+
+    .ls_input-style {
+        outline: 1px solid #C4C4C4;
+        border-radius: 5px;
+        background-color: #ffff;
+        text-indent: 10px;
+    }
+
+    .ls_btn-color {
+        background-color: #2D4FB0;
+        border-radius: 5px;
+    }
+
+
+    .ls_signin-text {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 34px;
+        color: #444851;
+    }
+
+    .ls_fp-text {
+        float: right;
+        color: #2D4FB0;
+        font-size: small;
+    }
+
+    .ls_signup {
+        color: #2D4FB0;
+    }
+
+    .ls_lable-style {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        color: #444851;
+        margin-top: 30px;
+    }
+
+
+}
+
+@media (max-width:425px) {
+    .ls-grid {
+        background-color: #fff;
+    }
+}

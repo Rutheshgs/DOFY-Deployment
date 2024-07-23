@@ -1,0 +1,20 @@
+{
+    "in_en": {
+        "Device": "Device",
+        "Physical": "Physical",
+        "Functional": "Functional",
+        "Warranty": "Warranty"
+    },
+    "ae_ar": {
+        "Device": "جهاز",
+        "Physical": "بدني",
+        "Functional": "وظيفي",
+        "Warranty": "ضمان"
+    },
+    "ae_en": {
+        "Device": "Device",
+        "Physical": "Physical",
+        "Functional": "Functional",
+        "Warranty": "Warranty"
+    }
+}

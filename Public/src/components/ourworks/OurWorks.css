@@ -1,0 +1,72 @@
+.ow-grid {
+    background-color: var(--dofy-color-primary-bg-new);
+}
+
+.ow-padding-adjustment {
+    padding: 30px 150px;
+}
+
+.ow-card {
+    background-color: #1c49a7;
+    border-radius: 10px;
+    background-image: url('../../assets/images/phase2/ourworks.png');
+    padding: 45px 10px;
+}
+
+.ow-card-row {
+    top: 33%;
+    width: 100%;
+    text-align: center;
+}
+
+.ow-card-col-border {
+    border-right: .1px solid rgb(161, 159, 159);
+}
+
+.ow-card-header-1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--dofy-color-primary-bg-new);
+}
+
+.ow-card-header-2 {
+    font-size: 15px;
+    font-weight: 200;
+    color: var(--dofy-color-primary-bg-new);
+}
+
+@media (max-width:1024px) {
+    .ow-padding-adjustment {
+        padding: 30px 0px;
+    }
+
+    .ow-card-row ion-col {
+        margin-bottom: 20px;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .ow-card-col-border {
+        border: unset !important;
+    }
+}
+
+@media screen and (max-width:510px) {
+    .ow-card {
+        border-radius: 10px;
+        padding: 45px 10px;
+    }
+
+    .ow-card-col-border {
+        border: unset !important;
+    }
+}
+
+@media (min-width:1440px) {
+    .ow-card-header-2 {
+        font-size: 18px;
+        font-weight: 200;
+        color: var(--dofy-color-primary-bg-new);
+    }
+}

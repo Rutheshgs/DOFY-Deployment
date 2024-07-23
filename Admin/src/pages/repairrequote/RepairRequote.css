@@ -1,0 +1,59 @@
+.rr_heading {
+    margin-top: 55px;
+}
+
+.rd-summary-list-header {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.rd-summary-list-icon {
+    color: red;
+    padding-right: 5px;
+    padding-top: 0px;
+}
+
+.rd-summary-list-text {
+    padding-left: 20px;
+    padding-top: 0px;
+}
+
+.repair-devices-header-row {
+    padding: 10px 5px 0px 5px;
+    border-bottom: 1px solid rgb(226, 219, 219);
+}
+
+.repair-devices-text {
+    color: #004E73;
+    text-transform: uppercase;
+}
+
+.rpc-card {
+    height: 85%;
+    border: 1px solid #eeeeee;
+}
+
+.rpc-addbutton {
+    width: 100px;
+    height: 30px;
+    margin-left: -40px;
+    color: #978bdd;
+}
+
+.rpc-removebutton {
+    width: 100px;
+    height: 30px;
+    margin-left: -40px;
+    color: rgb(249, 129, 129);
+}
+.repair-devices-btn-continue {
+    background-color: #ffcc4e;
+    color: #004E73;
+    float: right;
+}
+
+.repair-devices-btn-back {
+    color: #004E73;
+    border: 1px solid #ffcc4e;
+    float: right;
+}

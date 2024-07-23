@@ -1,0 +1,258 @@
+.as-padding-adjustment {
+    padding: 50px 100px;
+}
+
+.au-header-row {
+    height: 150px;
+    color: white;
+    padding: 30px 0px 30px 10px;
+}
+
+.au-header-text {
+    font-size: 24px;
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+.au-row {
+    background-color: white;
+    margin-top: -55px;
+    width: 95%;
+    margin-left: 2.5%
+}
+
+.au-font {
+    font-style: italic;
+}
+
+.au-font-color {
+    color: deepskyblue;
+}
+
+.aboutus-text-align {
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align: justify;
+}
+
+.aboutus-text-align {
+    margin-top: 0px;
+    margin-left: 0px;
+    text-align: justify;
+}
+
+.aboutus-innertexts {
+    color: #004E73;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.aboutus-rows {
+    color: white;
+    padding: 35px;
+}
+
+.aboutus-cards {
+    min-height: 10px;
+    margin-left: 450px;
+    margin-right: 450px;
+    background-color: #004E73;
+    color: #ffcc4e;
+    font-weight: bold;
+}
+
+.aboutus-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.aboutus-title::after {
+    left: 0;
+    right: 5px;
+    width: 40%;
+    bottom: -2px;
+    height: 4px;
+    margin: 0 auto;
+    content: '';
+    position: absolute;
+    max-width: 100px;
+    background-color: #ffcc4e;
+}
+
+.ab_customer-name {
+    position: absolute;
+    bottom: 120px;
+    font-size: xx-large;
+    font-weight: 500;
+    color: #fff;
+    left: 50px;
+}
+
+.ab_lap-seller {
+    position: absolute;
+    bottom: 100px;
+    color: #fff;
+    left: 50px;
+    font-size: small;
+}
+
+.ab_star-rate {
+    --background: none;
+    bottom: 50px;
+    width: 100px;
+    left: 20px;
+}
+
+.aboutus-card {
+    background-color: #FAFAFA;
+}
+
+.aboutus-card-align {
+    height: 90%;
+    background: #fff;
+}
+
+.au-grid ion-item ion-label {
+    white-space: pre-line !important;
+}
+
+.au-grid .who-we {
+    font-weight: 600;
+}
+
+.ab-grid {
+    background-color: var(--dofy-color-primary-bg-new);
+}
+
+.ab-grid1 {
+    background-color: var(--dofy-color-secondary-bg-new);
+}
+
+.ab_title {
+    color: #425367;
+    font-size: 40px;
+    padding: 0;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.text-align-justify{
+    text-align: justify !important;
+}
+
+.ab_text {
+    color: #6E727B;
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-align: justify !important;
+    justify-content: space-evenly !important;
+}
+
+.ab_btn {
+    background: #2350b2;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 0;
+}
+
+.ab_image {
+    width: 100%;
+    height: 100%;
+}
+
+.ab_card {
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.ab_card-sub {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+
+@media screen and (max-width:1024px) {
+    .aboutus-title::after {
+        bottom: -10px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .as-padding-adjustment {
+        padding: 50px 0px;
+    }
+
+    .ab_card-sub {
+        padding-top: 5px !important;
+        font-size: 8px !important;
+    }
+
+    .ab_image {
+        width: 60%;
+        margin: 0px auto;
+    }
+}
+
+@media screen and (max-width:510px) {
+    .aboutus-text {
+        font-weight: 600;
+        font-size: 17px;
+        color: #004E73;
+    }
+
+    .aboutus-texts {
+        font-weight: 600;
+        font-size: 17px;
+        color: black;
+    }
+
+    .aboutus-col {
+        margin-top: 5px;
+    }
+
+    .aboutus-images {
+        width: 100%;
+    }
+
+    .aboutus-title::after {
+        bottom: -10px;
+    }
+
+    .ab_title {
+        font-size: 20px !important;
+    }
+
+    .ab_text {
+        font-size: small !important;
+    }
+
+    .ab_submit {
+        text-align: center !important;
+    }
+
+    .ab_card-sub {
+        white-space: unset;
+        padding-top: 5px;
+        font-size: 14px !important;
+    }
+
+    .ab_customer-name {
+        font-size: x-large !important;
+    }
+
+    .as-padding-adjustment {
+        padding: 50px 0px;
+    }
+}
+
+@media (min-width:1440px){
+    .ab_card-sub {      
+        padding: 10px;
+        font-size: 15px;
+        font-weight: 600;
+        text-align: center;
+    }
+}

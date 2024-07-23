@@ -1,0 +1,45 @@
+.gc-header-row {
+    background-color: var(--dofy-color-dark);
+    height: 150px;
+    color: white;
+}
+
+.gc-padding {
+    padding: 30px 0px 30px 10px;
+}
+
+.gc-header-text {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.gc-row {
+    background-color: white;
+    margin-top: -55px;
+    width: 95%;
+    margin-left: 2.5%
+}
+
+.gc-text {
+    text-align: justify;
+}
+
+.gc-img {
+    height: 80px;
+    width: 100%;
+}
+
+@media screen and (max-width:510px) {
+    .gc-img {
+        height: 70px;
+        width: 100%;
+    }
+}
+
+.gc-col {
+    border: solid 1px gray;
+}
+
+.gc-header-padding {
+    padding: 19px 19px 19px 20px;
+}

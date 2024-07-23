@@ -1,0 +1,342 @@
+.db-headerlogo {
+    width: 10%;
+}
+
+.db-personlogo {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.db-card {
+    width: 93%;
+    height: 50px;
+    padding-top: 5px;
+    border: unset;
+    border-top: 2px solid;
+    cursor: pointer;
+}
+
+.db-card-active {
+    background: #D9D7F1;
+    border-right: 2px solid;
+    border-left: 2px solid;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.db-cardcontent {
+    border-left: 2px solid #6A95F9;
+    margin: 5px !important;
+}
+
+.db-sales {
+    background-color: bisque;
+}
+
+.db-content {
+    font-size: 18px;
+    color: black;
+}
+
+.db-headercontent {
+    padding-left: 10px;
+    font-size: 12px;
+    text-transform: capitalize;
+    color: black;
+    margin-right: 5px;
+}
+
+.db-headercontents {
+    padding-left: 10px;
+    font-size: 12px;
+    text-transform: capitalize;
+    color: black;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.db-headercount {
+    font-size: 15px;
+    color: black;
+}
+
+.db-contentbtn {
+    font-size: 35px;
+}
+
+.db-box {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    color: white;
+}
+
+.db-assignbtn {
+    border-radius: 50px;
+    font-size: smaller;
+}
+
+.db-DashboardStatsName {
+    padding-left: 20px;
+    font-size: larger;
+}
+
+.refral {
+    background-color: rgb(91, 141, 91);
+}
+
+.utm ion-icon {
+    position: absolute !important;
+}
+
+.utm ion-label {
+    font-size: 10px;
+}
+
+@media (max-width:768px) and (min-width:510px) {
+
+    .refral {
+        background-color: rgb(91, 141, 91);
+        margin-top: 2px;
+    }
+
+    .utm {
+        background-color: #7f8fba;
+        margin-top: 2px;
+    }
+}
+
+.order-title {
+    color: #6a95f9;
+}
+
+@media (min-width:801px) and (max-width:1024px) {
+    .order-title {
+        font-size: 14px;
+        color: #6a95f9;
+
+    }
+
+    .db_assignbtn_col {
+        text-align: center;
+    }
+
+}
+
+@media (min-width:521px) and (max-width:800px) {
+    .order-title {
+        font-size: large;
+        color: #6a95f9;
+
+    }
+
+    .db_chevronbtn {
+        position: absolute;
+        margin-top: -115px;
+        margin-left: 680px;
+    }
+
+    .db-brandName {
+        padding-left: 0px;
+        padding-top: 3px;
+    }
+
+    .db-assignName {
+        position: absolute;
+        margin-left: 35px;
+        margin-top: -20px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .db_addressdetails {
+        margin-left: 30px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+
+    .db-assignbtn {
+        position: absolute;
+        border-radius: 50px;
+        margin-top: -10px;
+        margin-left: 40px;
+    }
+}
+
+@media (min-width:376px) and (max-width:520px) {
+    .order-title {
+        font-size: 20px;
+        color: #6a95f9;
+
+    }
+
+    .db-headerlogo {
+        width: 40%;
+    }
+
+    .db-brandName {
+        padding-left: 40px;
+        padding-top: 3px;
+    }
+
+    .db_address {
+        padding-top: 10px;
+    }
+
+    .db_minutes {
+        text-align: center;
+    }
+
+    .db_addressdetails {
+        margin-left: 30px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    /* .db-assignbtn {
+        position: absolute;
+        border-radius: 50px;
+        margin-top: -190px;
+        margin-left: 120px;
+    } */
+
+    /* .db_chevronbtn {
+        position: absolute;
+        margin-top: -190px;
+        margin-left: 120px;
+    } */
+
+    .db_assignbtn_col {
+        /* margin-bottom: 30px; */
+        padding: 10px;
+    }
+
+    .db-assignName {
+        /* margin-left: -245px; */
+        /* left: 0% !important; */
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
+
+@media (min-width:321px) and (max-width:375px) {
+    .order-title {
+        font-size: 18px;
+        color: #6a95f9;
+    }
+
+    .db-headerlogo {
+        width: 40%;
+    }
+
+    .db-brandName {
+        padding-top: 5px;
+    }
+
+    .db_address {
+        padding-top: 10px;
+    }
+
+    .db_minutes {
+        text-align: center;
+    }
+
+    .db_addressdetails {
+        margin-left: 30px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    /* .db-assignbtn {
+        position: absolute;
+        border-radius: 50px;
+        margin-top: -190px;
+        margin-left: 230px;
+    } */
+
+    /* .db_chevronbtn {
+        position: absolute;
+        margin-top: -190px;
+        margin-left: 120px;
+    } */
+
+    .db_assignbtn_col {
+        /* margin-bottom: 30px; */
+        padding: 10px;
+    }
+
+    .db-assignName {
+        /* position: absolute; */
+        font-size: 15px;
+        font-weight: bold;
+    }
+}
+
+@media (max-width:320px) {
+    .order-title {
+        font-size: 16px;
+        color: #6a95f9;
+    }
+
+    .db-headerlogo {
+        width: 40%;
+    }
+
+    .db-brandName {
+        padding-left: 40px;
+        padding-top: 5px;
+    }
+
+    .db_address {
+        padding-top: 10px;
+    }
+
+    .db_minutes {
+        text-align: center;
+    }
+
+    .db_addressdetails {
+        margin-left: 30px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    /* .db-assignbtn {
+        position: absolute;
+        border-radius: 50px;
+        margin-top: -10px;
+        margin-left: 5px;
+    } */
+
+    /* .db_chevronbtn {
+        position: absolute;
+        margin-top: -210px;
+        margin-left: 100px;
+    } */
+
+    .db_assignbtn_col {
+        /* margin-bottom: 30px; */
+        padding: 10px;
+    }
+
+    .db-assignName {
+        font-size: 15px;
+        font-weight: bold;
+    }
+}
+
+.db_hide-header {
+    display: none;
+}
+
+ion-loading.custom-loading {
+    --background: #e3edff;
+    --spinner-color: #1c6dff;
+    color: #1c6dff;
+}
+
+@media (min-width:530px) and (max-width:768px) {
+    .Assign-Order {
+        padding-left: 38px;
+    }
+}

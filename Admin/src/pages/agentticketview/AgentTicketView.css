@@ -1,0 +1,99 @@
+.home-bg-color {
+     background-color: #F5F5F5;
+     margin-top: 50px;
+}
+
+.colorchange {
+     color: #004E73;
+     background-color: #FFCC4E;
+}
+
+.delay-text {
+     color: #004E73;
+     font-weight: 600;
+     font-size: 18px;
+}
+
+.delay-padding {
+     padding-top: 11px;
+}
+
+.agent-text {
+     font-size: 15px;
+     font-weight: 600;
+     color: #004E73;
+     padding-left: 15px;
+}
+
+.orderNumber {
+     font-size: larger;
+}
+
+.agent-texts {
+     font-weight: 600;
+}
+
+@media (max-width:500px) {
+     .orderNumber {
+          font-size: 15px;
+     }
+
+     .backbtn {
+          padding-left: 30px;
+     }
+}
+
+#back-button {
+     color: rgb(39, 33, 33);
+     font-size: 20px;
+     font-weight: 500;
+     float: right;
+}
+
+#Re-quote {
+     color: rgb(23, 37, 188);
+     font-size: 20px;
+     font-weight: 500;
+}
+
+#Re-quotes {
+     display: none;
+}
+
+#Reschedule {
+     color: rgb(179, 101, 5);
+     font-size: 20px;
+     font-weight: 500;
+}
+
+#Reschedules {
+     display: none;
+}
+
+#cancelOrder {
+     color: rgb(29, 63, 4);
+     font-size: 20px;
+     font-weight: 500;
+     background: #F5F5F5;
+
+}
+
+#cancel-orders {
+     display: none;
+}
+
+#Retrieve-button {
+     color: rgb(29, 63, 4);
+     font-size: 20px;
+     font-weight: 500;
+     background: #F5F5F5;
+
+}
+
+#Retrieve-buttons {
+     display: none;
+}
+
+.my-custom-class {
+     text-align: center;
+}

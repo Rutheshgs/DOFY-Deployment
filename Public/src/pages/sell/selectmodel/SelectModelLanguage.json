@@ -1,0 +1,20 @@
+{
+    "in_en": {
+        "Select_your_model": "Select your model",
+        "Search_your_model": "Search your model",
+        "No_records_found": "No records found",
+        "Cant_find_your_device": "Can't Find Your Device"
+    },
+    "ae_ar": {
+        "Select_your_model": "حدد الطراز الخاص بك",
+        "Search_your_model": "ابحث في النموذج الخاص بك",
+        "No_records_found": "لا توجد سجلات",
+        "Cant_find_your_device": "لا يمكن العثور على جهازك"
+    },
+    "ae_en": {
+        "Select_your_model": "Select your model",
+        "Search_your_model": "Search your model",
+        "No_records_found": "No records found",
+        "Cant_find_your_device": "Can't Find Your Device"
+    }
+}

@@ -1,0 +1,39 @@
+.referral-card {
+    position: absolute;
+    padding: 10px;
+    width: 250px !important;
+    top: -120% !important;
+    right: 8% !important;
+    background: var(--dofy-color-primary-new) !important;
+    z-index: 1 !important;
+}
+
+.referral-card ion-item {
+    --background: var(--dofy-color-primary-new) !important;
+    --min-height: 30px !important;
+}
+
+.referral-card ion-text {
+    text-transform: capitalize !important;
+    color: white !important;
+    font-size: 12px !important;
+}
+
+.color-white-border {
+    border: 1px solid white;
+}
+
+.color-success {
+    color: rgb(141, 237, 141) !important;
+}
+
+.color-danger {
+    color: rgb(230, 128, 128) !important;
+}
+
+@media screen and (max-width:510px) {
+    .referral-card {
+        top: -120% !important;
+        right: 10% !important;
+    }
+}

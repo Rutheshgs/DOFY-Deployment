@@ -1,0 +1,36 @@
+export interface IGetOrdersModel {
+    Active: any
+    Address: any
+    AppointmentCity: any
+    AppointmentDate: any
+    AppointmentPincode: any
+    AssigneeId: any
+    AssigneeName: any
+    BrandMasterName: any
+    ColorCode: any
+    Created: any
+    CreatedBy: any
+    FinalPaid: any
+    Id: any
+    IsValid: any
+    ModelVariantId: any
+    ModelVariantName: any
+    Modified: any
+    ModifiedBy: any
+    OrderCode: any
+    PersonId: any
+    ProductTypeName: any
+    RowOrder: any
+    SeriesModelName: any
+    ServiceType: any
+    ServiceTypeId: 2
+    StartTime: any
+    StatusId: 4
+    StatusName: any
+    SuggestedCost: any
+    ThumbnailPath: any
+    TotalRowsCount: any
+    UserMobile: any
+    UserName: any
+    ValidationErrors: {}
+}

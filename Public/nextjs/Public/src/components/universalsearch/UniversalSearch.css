@@ -1,0 +1,11 @@
+.universal-search {
+    background-color: white;
+    border-radius: 10px;
+    border: 0.5px solid var(--dofy-color-primary-new) !important;
+    width: 90% !important;
+    margin:0px auto;
+}
+
+.universal-search fieldset {
+    border-width: 0px !important;
+}

@@ -1,0 +1,13 @@
+User-Agent: *
+Allow: /
+Disallow: /cgi-bin/
+Disallow: /calculator/
+Disallow: /track/
+Disallow: /*?__utmrg=*
+Disallow: /blog/
+Disallow: /user/
+Disallow: /category/refund-policy/
+Disallow: /api/
+Disallow: /buy-refurbished-mobile-phones/renewed-test-product-estore
+Disallow: /buy-refurbished-mobile-phones/test
+Sitemap: https://www.dofy.in/in_en/sitemap.xml

@@ -1,0 +1,394 @@
+.slot-padding-adjustment {
+    padding: 30px 90px;
+}
+
+.slot-row {
+    background-color: white;
+}
+
+.address-choose-address {
+    border-radius: 10px;
+    background: #f2f5fc;
+    color: var(--dofy-color-primary-new);
+    font-weight: 600;
+    padding: 15px;
+}
+
+.address-card {
+    background: white;
+    border: 0.5px solid #1A4FBF;
+    padding: 10px;
+    height: max-content;
+    cursor: pointer;
+}
+
+.address-card ion-text {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.address-controlls-row {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.address-controlls {
+    color: var(--dofy-color-primary-new);
+    font-size: 16px !important;
+    text-transform: uppercase;
+}
+
+.add-address-card .address-card {
+    background: #f2f5fc;
+    height: 100%;
+    text-align: center;
+}
+
+.add-address-card .address-card button {
+    background: var(--dofy-color-primary-new);
+    margin-top: 23%;
+}
+
+.address-edit {
+    border: 0.5px solid #1A4FBF;
+    background: white;
+}
+
+.address-edit ion-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.address-edit ion-input {
+    outline: 1px solid #3333;
+    border-radius: 5px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.address-edit-btn button {
+    margin-bottom: 15px;
+}
+
+.address-edit-btn button {
+    margin-right: 10px;
+    background: var(--dofy-color-primary-new);
+}
+.address-edit-btn .ad_back-btn{
+    border: 1px solid var(--dofy-color-primary-new);
+    background-color: #ffffff;
+    color: #1A4FBF;
+}
+.address-edit-use-btn {
+    background: var(--dofy-color-primary-new) !important;
+}
+
+/* slot */
+
+.slot-choose-col {
+    border-radius: 10px;
+    background: #f2f5fc;
+    color: var(--dofy-color-primary-new);
+    font-weight: 600;
+    padding: 15px;
+}
+
+.slot-orders-col {
+    border: 0.5px solid var(--dofy-color-primary-new);
+    border-radius: 5px;
+    padding: 0;
+}
+
+.slot-orders-card {
+    background: white;
+    box-shadow: unset;
+}
+
+.slot-orders-card ion-text {
+    color: var(--dofy-color-primary-new);
+    font-weight: 600;
+}
+
+.slot-orders-card-inline {
+    background: #f2f5fc;
+    padding: 0px;
+    box-shadow: unset;
+    padding: 10px;
+}
+
+.slot-orders-card-inline ion-text {
+    color: #425367;
+}
+
+.slot-orders-card-inline-details ion-text {
+    color: #425367;
+}
+
+.slot-orders-card-inline-cost ion-label {
+    color: var(--dofy-color-primary-new);
+}
+
+.slot-orders-card-inline-cost ion-text {
+    color: #425367;
+    /* float: right; */
+    font-size: 18px;
+}
+
+.slot-orders-card-inline-card {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.slot-orders-card-inline-adjustment {
+    margin-left: -40px;
+    margin-top: -5px;
+}
+
+.slot-orders-card-inline-adjustment ion-text,
+.slot-orders-card-inline-adjustment ion-label {
+    white-space: nowrap;
+}
+
+.slot-orders-card-inline-card-0 {
+    margin-left: 0px;
+}
+
+.slot-orders-card-inline-details {
+    margin-top: -10px;
+    background: #f2f5fc;
+    box-shadow: unset;
+    padding: 10px;
+}
+
+.slot-orders-card-inline-cost {
+    box-shadow: unset;
+    padding: 10px;
+    background-color: white;
+    border: 0.5px solid var(--dofy-color-primary-new);
+}
+
+.slot-details-col {
+    border-radius: 10px;
+    background: #f2f5fc;
+    color: var(--dofy-color-primary-new);
+    font-weight: 600;
+    /* padding: 15px; */
+}
+
+.slot-details-card {
+    box-shadow: unset;
+}
+
+.slot-details-card-inline-col ion-text {
+    color: var(--dofy-color-primary-new);
+    font-size: 20px;
+}
+
+.slot-date-card {
+    border-radius: 5px;
+    text-align: center;
+    background: white;
+    color: var(--dofy-color-primary-new);
+    box-shadow: unset;
+    cursor: pointer;
+}
+
+.slot-date-card-express {
+    height: 75px;
+    padding-top: 10px;
+}
+
+.slot-date-card-selected {
+    background: var(--dofy-color-primary-new) !important;
+}
+
+.slot-date-card-selected ion-text {
+    color: white !important;
+}
+
+.slot-date-card ion-text {
+    color: var(--dofy-color-primary-new);
+}
+
+.slot-date-row {
+    padding: 5px;
+    text-align: center;
+}
+
+.slot-date-row ion-chip {
+    background: white;
+    color: var(--dofy-color-primary-new);
+    padding: 22px 15px;
+    border-radius: 30px;
+}
+
+.slot-date-row .slot-chip-checked {
+    background: var(--dofy-color-primary-new);
+    color: white;
+}
+
+.slot-chip-checked .slot-switch-icon {
+    background: var(--dofy-color-primary-new);
+    color: white;
+}
+
+.slot-controlls button {
+    background: var(--dofy-color-primary-new);
+    margin-right: 10px;
+}
+
+.MuiOutlinedInput-root .MuiAutocomplete-input {
+    padding: 0.5px 4px 7.5px 5px !important;
+}
+
+.MuiOutlinedInput-root {
+    height: 40px !important;
+}
+
+.address-form-cols {
+    margin-top: -5px;
+}
+
+.address-form-inline {
+    margin-top: 20px;
+}
+
+.slot-switch-icon {
+    position: absolute;
+    background: white;
+    font-size: 12px;
+    top: 22px;
+    left: 62px;
+}
+
+@media screen and (max-width: 2560px) {
+    .address-form-cols {
+        margin-top: -6px;
+    }
+
+    .address-form-inline {
+        margin-top: 18px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .slot-padding-adjustment {
+        padding: 10px 0px;
+    }
+
+    .address-form-cols {
+        margin-top: -6px;
+    }
+
+    .address-form-inline {
+        margin-top: 18px;
+    }
+
+    .slot-switch-icon {
+        position: absolute;
+        background: white;
+        font-size: 12px;
+        top: 22px;
+        left: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .slot-padding-adjustment {
+        padding: 10px 0px;
+    }
+
+    .address-card-dropdown {
+        margin-bottom: 20px;
+    }
+
+    .address-form-cols {
+        margin-top: -6px;
+    }
+
+    .address-form-inline {
+        margin-top: 15px;
+    }
+
+    .slot-switch-icon {
+        position: absolute;
+        background: white;
+        font-size: 12px;
+        top: 22px;
+        left: 90px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .address-card-dropdown {
+        margin-bottom: 20px;
+    }
+
+    .add-address-card .address-card {
+        position: unset;
+    }
+
+    .add-address-card .address-card button {
+        background: var(--dofy-color-primary-new);
+        margin-top: 3%;
+    }
+
+    .slot-orders-col {
+        margin-top: 20px;
+    }
+
+    .address-form-cols {
+        margin-top: -6px;
+    }
+
+    .address-form-inline {
+        margin-top: 10px;
+    }
+
+    .slot-switch-icon {
+        position: absolute;
+        background: white;
+        top: 22px;
+        left: 35px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .slot-switch-icon {
+        position: absolute;
+        background: white;
+        top: 22px;
+        left: 30px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .address-form-cols {
+        margin-top: -8px;
+    }
+
+    .address-form-inline {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width:1440px) and (min-width:1368px) {
+    .slot-switch-icon {
+        position: absolute;
+        background: white;
+        top: 22px;
+        left: 85px;
+    }
+}
+
+@media (min-width:1441px) and (max-width:1920px) {
+    .slot-switch-icon {
+        position: absolute;
+        background: white;
+        top: 22px;
+        left: 100px;
+    }
+}

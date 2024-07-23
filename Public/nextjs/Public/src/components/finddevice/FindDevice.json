@@ -1,0 +1,45 @@
+{
+    "in_en": {
+        "Select_Gadget": "Select Gadget",
+        "Select_Brand": "Select Brand",
+        "Select_Model": "Select Model",
+        "Select_Varient": "Select Varient",
+        "Full_Name": "Full Name *",
+        "Mobile_Number": "Mobile Number *",
+        "Email": "Email *",
+        "Submit": "Submit",
+        "BrandModelName": "Brand *",
+        "Modal": "Modal *",
+        "ModalVariant": "ModalVariant *",
+        "Error": "required *"
+    },
+    "ae_ar": {
+        "Select_Gadget": "حدد الجهاز الإلكتروني",
+        "Select_Brand": "اختر الماركة",
+        "Select_Model": "حدد الطراز",
+        "Select_Varient": "حدد البديل",
+        "Full_Name": "الاسم الكامل *",
+        "Mobile_Number": "رقم الهاتف المحمول*",
+        "Email": "بريد إلكتروني*",
+        "Submit": "يُقدِّم *",
+        "BrandModelName": "ماركة *",
+        "Modal": "مشروط *",
+        "ModalVariant": "مشروط *",
+        "Error": "مطلوب *"
+    },
+    "ae_en": {
+        "Select_Gadget": "Select Gadget",
+        "Select_Brand": "Select Brand",
+        "Select_Model": "Select Model",
+        "Select_Varient": "Select Varient",
+        "Full_Name": "Full Name *",
+        "Mobile_Number": "Mobile Number *",
+        "Email": "Email *",
+        "Submit": "Submit *",
+        "BrandModelName": "Brand *",
+
+        "Modal": "Modal *",
+        "ModalVariant": "ModalVariant *",
+        "Error": "required *"
+    }
+}

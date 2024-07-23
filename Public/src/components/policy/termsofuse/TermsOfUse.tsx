@@ -1,0 +1,85 @@
+import { IonGrid, IonRow, IonCol, IonCard, IonCardContent, IonText, IonContent, IonList, IonPage } from '@ionic/react';
+
+import "./TermsOfUse.css";
+
+import LegalTerms from '../../legalterms/LegalTerms';
+
+import policy from '../../../assets/images/policy.png';
+import { CustomImg } from '../../shared/CustomImage';
+
+function TermsOfUse() {
+  return (
+    <IonPage>
+      <IonContent>
+        <IonGrid>
+          <IonRow className='tu-grid'>
+          </IonRow>
+          <IonCard>
+            <IonCardContent>
+              <IonRow >
+                <IonCol>
+                  <IonText className='tu-header-text'>Terms of Use</IonText>
+                </IonCol>
+                <IonCol>
+                  <CustomImg src={policy} className='tu-img' />
+                </IonCol>
+              </IonRow>
+            </IonCardContent>
+          </IonCard>
+          <IonRow >
+            <IonCol sizeMd='4'>
+              <LegalTerms />
+            </IonCol>
+            <IonCol sizeMd='8' sizeXs='12'>
+              <IonText> Please read these terms of use carefully before using this website (“Dofy”). These website terms of use (the “terms of use”) govern your access to and use of the website. the website is available for your use only on the condition that you agree to the terms of use set forth below. If you do not agree to all of the terms of use, do not access or use the website. by accessing or using the website, you and the entity you are authorized to represent (“you” or “your”) signify your agreement to be bound by the terms of use.<br />
+                This is a legally binding contract between “you” the “seller of the goods”, Invent SoftLabs (India) pvt ltd. (“Dofy”), and + third-party buyers (“buyer”) which provides services for purchasing, recycling and/or donating of used consumer products (the “buyer services”). Dofy acts as a platform to allow sellers who comply with their policies to sell certain goods. You conduct your actual sales and other transactions directly with the third parties and, unless otherwise specifically and clearly indicated, not with Dofy. As a result, Dofy cannot control any aspect of your sales and transactions with third parties, and the third parties are solely responsible to you for all aspects of your sales and transactions with them and consequently Dofy will have no liabilities towards the sellers or buyers in this regard. in document below “we”, “our”, “us” is used for Dofy and Dofy’s third party buyer collectively.<br />
+                1. You certify that you are the legal owner of the gadget that you want to sell.<br />
+                2. All initial quotes are pending our evaluation of your gadget and no binding offer is made until we have had a chance to inspect the gadget. We reserve the right to refuse to offer to purchase any item that you offer to sell for any reason we deem, in our sole discretion, to be sensible. We reserve the right to change our quote at any time.<br />
+                3. Should you be given a quote via our website/app/affiliates AND we, upon inspection of your gadget, agree to pay you that quoted amount, you are legally and contractually bound to sell us the gadget for the price quoted via the website.<br />
+                4. Should you be given a quote via our website/app and upon inspection your gadget is A) a different model than originally quoted, B) missing any parts, C) in a different condition than stated, we, in instances mentioned heretofore and beyond, reserve the right to change our offer.<br />
+                5. All gadgets sold must compulsorily be attached with the following documents:<br />
+                a. self-attested ID-proof (government approved) of owner of old gadget;<br />
+                b. self-attested indemnity bond provided by us if required;<br />
+                6. Lawful Sales Only. You must own the right, title and all legal interest in the gadget or other articles you sell us. Your sale and/or, shipment of any such article must not violate any law, regulation or statute of any jurisdiction. You may not unlawfully transfer or encumber any intellectual property, trademark, copyright, patent, software, license or other legal right or restriction via your shipping or selling of the picked-up article. The article you sell must be free of all legal restrictions that would affect the value of the article, restrict your legal right to transfer ownership of the article (including the article itself, softwares present on the article, or hardware on or inside the article). You must refrain from violating any export laws or restrictions. The article you sell (including all related materials, software and add on hardware) may not be counterfeited, stolen, or contain harmful or offensive content of any nature. You agree to indemnify and hold Dofy, our affiliates, suppliers, licensors and partners, and the officers, directors, employees, agents and representatives of each of them harmless, including costs, liabilities and legal fees, from any claim or demand made by any third party due to or arising out of (i) your access to or use of Services, (ii) your violation of these Terms & Conditions,<br />
+                7. It is also your responsibility to wipe, clean or delete data on your Gadget being sold via Dofy. You confirm that all the data in the said device will be erased before handing it over. You also confirm that in spite of erasing the data manually/electronically, if any data still accessible due any technical reason, Dofy or the Third party buyer shall not be responsible for the same and you will not approach Dofy for any retrieval of the data.<br />
+                8. You understand once a device is sold by you via Dofy, in no scenario can this device be returned back to you.<br />
+                9. You understand that Products distributed as gifts from state sponsored or NGO funded distribution programs are not accepted on Dofy platform.<br />
+                10.We reserve the right to modify this agreement at any time without giving you prior notice. Your use of our website/app, any of our tools and services, following any such modification constitutes your agreement to follow and be bound by the Agreement as modified. Terms and conditions modifying the Agreement are effective immediately upon publication<br />
+                11.Dofy reserves the right to cancel any transaction that is deemed suspicious or fraudulent on the organisation’s own discretion.</IonText><br />
+              <IonText className='tu-h2'>Terms of Use for Repair of Product</IonText><br />
+              <IonText>The Services constitute a technology platform that connects users of Dofy (“Invent SoftLabs (India) Pvt Ltd) mobile applications or websites provided as part of the Services (each, an “Application”) who are seeking gadget (Phones, tablet, Laptop etc) repair services to a network of third party repair technicians, including, without limitation, independent third party repair technicians and third party logistics providers under agreement with Dofy (“Third Party Professionals”). The Services are made available solely for your personal/ non-commercial use unless agreed otherwise, in writing in a separate agreement with you.<br />
+                You acknowledge and agree that Dofy does not provide gadget repair services or logistics or function as a gadget repair services company. Our services are to be used by you, if at all, for the purpose of requesting and scheduling gadget repair services or logistics services with third party professionals, but you agree that Dofy has no responsibility or liability to you related to any gadget repair services or logistics provided to you by the third party professionals through the use of the services</IonText><br />
+              <IonText className='tu-h2'>The Services other than as expressly set forth in these terms.</IonText><br />
+              <IonText>Dofy does not guarantee the suitability, safety or ability of third party professionals. It is solely your responsibility to determine if a third party professional will meet your needs and expectations. under no circumstances will Dofy participate in disputes between you and a third party professional. by using the services, you acknowledge that you may be exposed to situations involving third party professionals that are potentially unsafe, offensive, harmful to minors, or otherwise objectionable, and that your use of third party professionals arranged or scheduled using the services is at your own risk and judgment. Dofy shall not have any liability whatsoever arising from or in any way related to your transactions or relationship with third party professionals.</IonText><br />
+              <IonText className='tu-h2'>Payment for Services</IonText><br />
+              <IonText>You understand and agree that usage of the Services may result in payments by you for the services you receive from a Third Party Professional (“Charges”). After you have received services, , Dofy will facilitate payment of the applicable Charges on behalf of the Third Party Professional, solely as the Third Party Professional’s limited payment collection agent, using the preferred payment method you have designated while initiating or modifying your Account, and will send you a receipt vide email at the end of each session. By utilizing the Services, it is understood and agreed that payment of the Charges in such manner shall be considered the same as payment made directly by you to the Third Party Professional(s). Charges will be inclusive of applicable taxes wheresoever required by law. Charges paid by you are final and non-refundable, unless otherwise determined by Dofy in its sole discretion. While you do retain the right to request lower Charges from a Third Party Professional for services received by you from such Third Party Professional at the time you receive such services from the Third Party Professional, Dofy will respond accordingly to any request from a Third Party Professional to modify the Charges for a particular service.<br />
+                You understand and agree that (i) all Charges are due immediately and (ii) payment will be facilitated by Dofy using the preferred payment method you have designated while initiating or modifying your Account. If your primary account payment method is determined to not able to be charged for any reason whatsoever, you agree that Dofy may, as the Third Party Professional’s limited payment collection agent, use a secondary payment method in your account, if available.<br />
+                Dofy reserves the right to establish, remove and/or revise charges for any or all aspects of the Services at any time at Dofy’ sole discretion. Dofy will use reasonable efforts to inform you of charges that may apply, provided that you will be responsible for Charges incurred under your account regardless of your awareness of such charges or the amounts thereof. We may from time to time provide certain users with promotional offers and discounts that may result in different charges for the same or similar services, and you agree that such promotional offers and discounts, unless also made available to you, shall have no bearing on your use of the services or the charges applied to you. You may choose to cancel your request for services from a Third Party Professional at any time prior to such Third Party Professional’s arrival.</IonText><br />
+              <IonText className='tu-h2'>Repair Clauses for iOS users:</IonText><br />
+              <IonList>1. We do not necessarily use original Apple parts to repair the phone.</IonList>
+              <IonList> 2. Please note that repairing your phone on Dofy will void the Apple warranty.</IonList>
+              <IonText className='tu-h2'>WARRANTY</IonText><br />
+              <IonText>The Third Party Professional provides you with a minimum 30 day warranty ( More than 30 days if specified in order) on the gadget repair services as follows: (a) Screen/LCD and/or any other repaired or replaced parts that malfunction, or does not work as intended or designed to work, and (b) the warranty provided is limited to the parts and/or service(s) that you paid for. Except, as otherwise provided in these Terms, the warranty extends to cover the labour cost of part replacement and any other repairs specifically resulting from the initial repair.<br />
+                The warranty set forth above does not protect against: (a) Your actions that cause damage to the device that was repaired by the Third Party Professional</IonText><br />
+              <IonList>(b) Software issues unrelated to the repair</IonList>
+              <IonList>(c) Devices that have been jailbroken</IonList>
+              <IonList>(d) Any loss of data occurring as a result of the repair (YOU ARE ADVISED TO BACK UP ALL DATA PRIOR TO ANY REPAIR ATTEMPT)</IonList>
+              <IonList>(e) Any issue you knew about and advised the Third Party Professional or Dofy related to the device distinct from the repair, and noted prior to the repair being made</IonList>
+              <IonList>(f) Water damage</IonList>
+              <IonText>The warranty set forth in these Terms is valid only for the specific device repaired and the original customer. Under no circumstances is the warranty transferable to different devices or to an individual that is not you.<br />
+                While you will notify Dofy of any warranty claim, and Dofy will thereafter notify the Third Party Professional of the need to investigate the warranty claim, liability for performing the warranty repair services will rest solely with the Third Party Professional who performed the repair service. By using the Services, you are authorizing the Third Party Professional to perform repair work on your cellular phone or tablet device or any other article. You understand that neither Dofy nor the Third Party Professionals are Authorized Service Providers (ASP) of any cellular phone or tablet manufacturer, including but not limited to Apple Inc., and that neither Dofy nor the Third Party Professional are in any way affiliated with the gadget manufacturer, including but not limited to Apple Inc. Further, by using the Services you agree to release, indemnify, and hold Dofy harmless from liability for any claims or damages of any kind or description that may arise from any gadget device repair work performed on your device unless it is caused by the gross negligence of the Third Party Professional.<br />
+                By utilizing the Services you understand that Dofy has no liability for any data loss, which may occur as a result of work done on your device. You also understand that you have the option to, and are responsible for backing up your device before allowing the Third Party Professional to perform repair work on your device.<br />
+                By availing the Services you understand that any repairs or technical assistance rendered by the Third Party Professional may void manufacturer warranties for the device repaired, and that Dofy will not assume any liability or warranty in the event that the manufacturer warranties stand abated. Dofy and the Third Party Professionals have no liability whatsoever for indirect or consequential damages resulting from a repair or repair attempt, including any lost or damaged data, software, or lost profits or revenue of the customer.<br />
+                Dofy will warrant to you that from the date the repair Services are provided to you till a period of minimum 30 days , so long as you remain the owner (“Warranty Period”), each part and accessory provided to you as a component of the repair performed by the Third Party Professional under these Terms will be materially free of manufacturing defects. Dofy’ sole obligation, and your sole remedy, under this warranty is limited to, at Dofy’ sole discretion, repair or replacement of the defective part or accessory provided as a component of the repair. This warranty under these Terms is non-transferable.<br />
+                Please note that Dofy’s obligations under the warranty contained in these Terms are conditioned on your prompt notification to both the Third Party Professional AND Dofy of any warranty claim and complying with Dofy’ then-current warranty procedures provided to you.</IonText><br />
+              <IonText className='tu-h2'>PLEASE NOTE:</IonText><br />
+              <IonText>Some jurisdictions do not allow limitations on implied warranty, so the limitations and exclusions in this section may not apply to you. Your statutory rights that cannot be waived, if any, are not affected by these provisions. You agree and acknowledge that the limitations and exclusions of liability and warranty provided in these terms of use are fair and reasonable.</IonText><br />
+            </IonCol>
+          </IonRow>
+        </IonGrid>
+      </IonContent>
+    </IonPage>
+  )
+}
+
+export default TermsOfUse

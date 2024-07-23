@@ -1,0 +1,25 @@
+.cd-grid {
+    padding: 0px;
+}
+
+.cd-wiper {
+    background-repeat: no-repeat;
+}
+
+.cd-sell-col {
+    position: absolute;
+    bottom: 10px;
+    left: 23.7%;
+}
+
+.cd-sell-col button {
+    background-color: var(--dofy-color-primary-new);
+    text-transform: none;
+}
+
+@media screen and (max-width:510px) {
+    .cd-sell-col {
+        position: absolute;
+        left: 11%;
+    }
+}

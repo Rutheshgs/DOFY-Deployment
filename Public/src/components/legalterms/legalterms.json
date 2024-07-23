@@ -1,0 +1,15 @@
+{
+    "in_en": {
+        "Terms_and_Condition": "Terms and Condition",
+        "Privacy_Policy":" Privacy Policy"
+    },
+    "ae_ar": {
+        "Terms_and_Condition": "الأحكام والشروط",
+        "Privacy_Policy":"سياسة الخصوصية"
+
+    },
+    "ae_en": {
+        "Terms_and_Condition": "Terms and Condition",
+        "Privacy_Policy":" Privacy Policy"
+    }
+}

@@ -1,0 +1,153 @@
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear {
+    display: none !important;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0 !important;
+}
+
+.page-header {
+    position: relative;
+    background-color: #eee;
+    margin-top: 50px;
+}
+
+.page-title {
+    position: relative;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+ion-menu-button {
+    color: white;
+}
+
+ion-select {
+    --min-height: 48px !important;
+    height: 48px !important;
+    font-size: 14px;
+}
+
+.case-upper {
+    text-transform: uppercase !important;
+}
+
+.modal-md {
+    --height: 80%;
+    --width: 80%;
+}
+
+.modal-assignee {
+    --height: 40%;
+    --width: 40%;
+}
+
+@media (max-width:500px) {
+    .modal-assignee {
+        --height: 30%;
+        --width: 80%;
+    }
+}
+
+.suggestions {
+    position: absolute;
+    background-color: #f1f3f6;
+    z-index: 20;
+    border-radius: 5px;
+    color: #2d2e2e;
+    cursor: pointer;
+    border-top-width: 0;
+    list-style: none;
+    margin-top: 2px;
+    max-height: 300px;
+    overflow-y: auto;
+    padding-left: 0;
+    width: 390px;
+    box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+
+.suggestions li {
+    padding: 0.5rem;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.auto-search-input input {
+    text-align: center !important;
+    color: #5a8ca4 !important;
+}
+
+@media screen and (max-width:1024px) {
+    .suggestions {
+        margin-left: 20px;
+        width: 260px;
+    }
+
+    /* .auto-search-input input {
+        font-size: 11px !important;
+    } */
+}
+
+@media screen and (max-width:510px) {
+    .suggestions {
+        margin-left: 0px;
+        width: 260px;
+    }
+}
+
+.suggestion-active {
+    color: #5a8ca4;
+}
+
+ion-label {
+    opacity: 1 !important;
+}
+
+.native-input[disabled].sc-ion-input-md {
+    opacity: 1 !important;
+}
+
+.select-disabled,
+.item-select-disabled ion-label {
+    opacity: 1;
+}
+
+.custom-drp-down ion-select {
+    max-width: 65% !important
+}
+
+
+.color-success {
+    color: rgb(141, 237, 141) !important;
+}
+
+.color-danger {
+    color: rgb(230, 128, 128) !important;
+}
+
+@media (max-width:425px) {
+    .custom-drp-down ion-select {
+        max-width: 70% !important
+    }
+}
+
+@media (max-width:375px) and (min-width:321px) {
+    .custom-drp-down ion-select {
+        max-width: 68% !important
+    }
+}
+
+@media (max-width:320px) {
+    .custom-drp-down ion-select {
+        max-width: 66% !important
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "in_en": {
+        "Select_Your_Brands": "Select Your Brands",
+        "Search_your_brand": "Search your brand",
+        "No_records_found": "No records found"
+    },
+    "ae_ar": {
+        "Select_Your_Brands": "حدد علامتك التجارية",
+        "Search_your_brand": "ابحث عن علامتك التجارية",
+        "No_records_found": "لا توجد سجلات"
+    },
+    "ae_en": {
+        "Select_Your_Brands": "Select Your Brands",
+        "Search_your_brand": "Search your brand",
+        "No_records_found": "No records found"
+    }
+}

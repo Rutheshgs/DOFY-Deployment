@@ -1,0 +1,30 @@
+{
+    "in_en": {
+        "SELL": "SELL",
+        "Login": "Login",
+        "ABOUT_US": "ABOUT US",
+        "CONTACT": "CONTACT",
+        "FAQS": "FAQ'S",
+        "Select_City":"Select City",
+        "Search_your_device":"Search device"
+    },
+    "ae_ar": {
+        "SELL": "باع",
+        "Login": "يكمل",
+        "ABOUT_US": "معلومات عنا",
+        "CONTACT": "اتصل ",
+        "FAQS": "التعليمات",
+        "Select_City":"اختر مدينة",
+        "Search_your_device":"جهاز البحث"
+    },
+    "ae_en": {
+        "SELL": "SELL",
+        "Login": "Login",
+        "ABOUT_US": "ABOUT US",
+        "CONTACT": "CONTACT",
+        "FAQS": "FAQ'S",
+        "Select_City":"Select City",
+        "Search_your_device":"Search device"
+
+    }
+}

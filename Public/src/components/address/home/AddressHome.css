@@ -1,0 +1,41 @@
+.aligntext {
+    position: fixed;
+    margin-right: 145px;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+
+.sell-devices-btn-back button {
+    background-color: var(--dofy-color-primary-new);
+    border: 0.5px solid var(--dofy-color-primary-new);
+    border-radius: 5px;
+}
+
+.aligntextedc {
+    position: fixed;
+    margin: -15px;
+    margin-bottom: -15px;
+    margin-right: -5px;
+    padding: 3px;
+}
+.addhome{
+    position: absolute;
+    bottom: 0;
+    text-align: end;
+    right: 0;
+}
+
+.address-form-cols .MuiAutocomplete-root label {
+    margin-top: -7px;
+}
+
+.custom-alert-order .alert-title {
+    color: var(--dofy-color-primary-new) !important;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+}
+
+.custom-alert-order .alert-sub-title{
+    font-size: 12px !important;
+    font-weight: 600 !important;
+}

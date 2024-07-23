@@ -1,0 +1,47 @@
+.db-headerlogo {
+    width: 40% !important;
+    cursor: pointer;
+}
+@media (max-width:512px) {
+    .db-headerlogo {
+        width: 100% !important;
+        cursor: pointer;
+    }
+}
+
+.db-person {
+    color: white;
+    font-size: 15px;
+    margin-right: 70px;
+}
+
+.db-personlogo {
+    color: white;
+    font-size: 25px;
+    margin-right: 0px;
+}
+
+.toolbar-background {
+    background: transparent !important;
+}
+
+.header-grid {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: transparent;
+    z-index: 1;
+}
+
+.header-grid ion-img {
+    margin: 4px 0px 0px -10px;
+}
+.text-bold {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(244, 245, 246);
+}
+
+.Aed{
+    margin-left: 0px;
+}

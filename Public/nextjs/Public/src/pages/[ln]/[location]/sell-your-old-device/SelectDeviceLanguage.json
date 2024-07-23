@@ -1,0 +1,17 @@
+{
+    "in_en": {
+        "CHOOSE_DEVICE_TYPE": "CHOOSE DEVICE TYPE",
+        "Search_your_product": "Search your product",
+        "No_records_found": "No records found"
+    },
+    "ae_ar": {
+        "CHOOSE_DEVICE_TYPE": "اختر نوع الجهاز",
+        "Search_your_product": "ابحث في منتجك",
+        "No_records_found": "لا توجد سجلات"
+    },
+    "ae_en": {
+        "CHOOSE_DEVICE_TYPE": "CHOOSE DEVICE TYPE",
+        "Search_your_product": "Search your product",
+        "No_records_found": "No records found"
+    }
+}

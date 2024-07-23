@@ -1,0 +1,142 @@
+.border-color {
+    border-top: 2px solid;
+    border-top-color: #FFBE26;
+}
+
+.call-icon {
+    width: 20px;
+    height: 20px;
+    color: rgb(43, 194, 43);
+}
+
+.location-icon {
+    width: 20px;
+    height: 20px;
+    color: #0059E6;
+}
+
+.text-style {
+    font-size: 16px;
+}
+
+.text-border {
+    padding-right: 10px;
+    border-right: 2px solid #FFBE26;
+}
+
+.text-styles {
+    margin-left: 15px;
+    font-size: 15px;
+    color: black;
+}
+
+.title-font-size {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    /* color: #004E73; */
+}
+
+.title-font {
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: lowercase;
+    /* color: #004E73; */
+}
+
+.rs-style {
+    font-size: 18px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.rs-style-small {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.card-size {
+    width: 50px;
+    height: 50px;
+}
+
+.button-margin {
+    margin-top: 35px;
+}
+
+.icon-size {
+    width: 25px;
+    height: 55px;
+    margin-left: -12px;
+}
+
+.colorchange {
+    color: #004E73;
+    background-color: #FFCC4E;
+}
+
+.text-bold {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cdv-requote-btn {
+    border-radius: 20px;
+    font-size: small;
+}
+
+.cd_text-wrap {
+    white-space: pre-line;
+}
+
+.summary-card {
+    font-size: 12px;
+    padding: unset !important;
+    box-shadow: unset !important;
+    border: 1px solid #0000000a;
+}
+
+@media (min-width:510px) and (max-width:768px) {
+    .cd_card-height {
+        height: 50px;
+    }
+
+    .rs-style {
+        margin-bottom: 20px;
+    }
+}
+
+.cd_name_space {
+    padding-left: 8px !important;
+}
+
+.cd_text_decoration {
+    color: red;
+    text-decoration-line: line-through;
+}
+
+.referral-card-cdv {
+    position: absolute;
+    padding: 10px;
+    width: 250px !important;
+    top: 0% !important;
+    right: 35% !important;
+    background-color: #004E73;
+    z-index: 1 !important;
+}
+
+.referral-card-cdv ion-item {
+    --background: #004E73 !important;
+    --min-height: 30px !important;
+}
+
+.referral-card-cdv ion-text {
+    text-transform: capitalize !important;
+    color: rgb(245, 243, 243);
+    font-size: 12px !important;
+}
+
+.cd_card-height ion-item {
+    --min-height: 70px !important;
+    margin: -12px;
+}

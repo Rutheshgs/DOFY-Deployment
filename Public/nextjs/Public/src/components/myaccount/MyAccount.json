@@ -1,0 +1,70 @@
+{
+    "in_en": {
+        "My_Account":"My Account",
+        "Name":"Name",
+        "Please_enter_the_Name":"Please enter the Name ",
+        "Mobile_Number":"Mobile Number",
+        "Please_enter_the_Mobile_Number":"Please enter the Mobile Number",
+        "Please_enter_the_valid_Mobile_Number":"Please enter the valid Mobile Number",
+        "Email":"Email",
+        "Please_enter_the_Email":"Please enter the Email",
+        "Please_enter_the_valid_Email":"Please enter the valid Email",
+        "Password":"Password",
+        "Please_enter_the_password":"Please enter the  password",
+        "please_enter_the_valid_password":"please enter the valid password",
+        "save_changes":"save changes",
+        "Cancel":"Cancel",
+        "OK":"OK",
+        "Are_you_sure_you_want_to_delete":"Are you sure you want to delete your entire dofy account?",
+        "Sorry":"Sorry!!!",
+        "You_Have_Scheduled":"You Have Scheduled or In progress orders, Please Contact Dofy team to delete your account",
+        "Delete_Account":"Delete Account"
+
+    },
+    "ae_ar": {
+        "My_Account":"حسابي",
+        "Name":"اسم*",
+        "Please_enter_the_Name":"الرجاء إدخال الاسم ",
+        "Mobile_Number":"رقم الهاتف المحمول",
+        "Please_enter_the_Mobile_Number":"الرجاء إدخال رقم الهاتف المحمول",
+        "Please_enter_the_valid_Mobile_Number":"الرجاء إدخال رقم الهاتف المتحرك الصحيح",
+        "Email":"بريد إلكتروني*",
+        "Please_enter_the_Email":"الرجاء إدخال البريد الإلكتروني",
+        "Please_enter_the_valid_Email":"الرجاء إدخال البريد الإلكتروني الصحيح",
+        "Password":"كلمة المرور*",
+        "Please_enter_the_password":"الرجاء إدخال كلمة المرور",
+        "please_enter_the_valid_password":"الرجاء إدخال كلمة المرور الصحيحة",
+        "save_changes":"احفظ التغييرات",
+        "Cancel":"إلغ",
+        "OK":"نعم",
+        "Are_you_sure_you_want_to_delete":"نافذة التأكيد المنبثقة - هل أنت متأكد أنك تريد حذف حساب dofy بالكامل؟",
+        "Sorry":"آسف!!!",
+        "You_Have_Scheduled":"لديك أوامر مجدولة أو قيد التنفيذ ، يرجى الاتصال بفريق Dofy لحذف حسابك",
+        "Delete_Account":"حذف الحساب"
+
+
+    },
+    "ae_en": {
+        "My_Account":"My Account",
+        "Name":"Name*",
+        "Please_enter_the_Name":"Please enter the Name ",
+        "Mobile_Number":"Mobile Number",
+        "Please_enter_the_Mobile_Number":"Please enter the Mobile Number",
+        "Please_enter_the_valid_Mobile_Number":"Please enter the valid Mobile Number",
+        "Email":"Email*",
+        "Please_enter_the_Email":"Please enter the Email",
+        "Please_enter_the_valid_Email":"Please enter the valid Email",
+        "Password":"Password*",
+        "Please_enter_the_password":"Please enter the  password",
+        "please_enter_the_valid_password":"please enter the valid password",
+        "save_changes":"save changes",
+        "Cancel":"Cancel",
+        "OK":"OK",
+        "Are_you_sure_you_want_to_delete":"Are you sure you want to delete your entire dofy account?",
+        "Sorry":"Sorry!!!",
+        "You_Have_Scheduled":"You Have Scheduled or In progress orders, Please Contact Dofy team to delete your account",
+        "Delete_Account":"Delete Account"
+
+
+    }
+}

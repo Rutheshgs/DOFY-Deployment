@@ -1,0 +1,46 @@
+.cancel-order-btn-schedule {
+    background-color: #2fdf75;
+    color: white;
+}
+
+.cancel-order-btn-cancel {
+    background-color: #ff4961;
+    color: white;
+}
+
+.help-row {
+    background-color: #fbfcfe;
+    text-align: center;
+}
+
+.help-title {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.cancel-card {
+    height: 140px;
+}
+
+@media screen and (max-width:510px) {
+    .cancel-card {
+        height: 170px;
+    }
+}
+
+.cancel-card:hover {
+    border: 1px dotted #0043e2;
+    border-bottom: 5px solid #0043e2;
+}
+
+.card-label {
+    font-size: 13px;
+    font-weight: 600;
+    color: #0043e2;
+}
+
+.cancel-reason-heading {
+    font-size: 15px;
+    font-weight: 600;
+    --padding-start: 0;
+}

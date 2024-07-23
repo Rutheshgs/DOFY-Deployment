@@ -1,0 +1,7 @@
+{
+  "name": "DOFY",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

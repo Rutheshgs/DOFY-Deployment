@@ -1,0 +1,103 @@
+.login-header {
+    background-color: #004E73;
+    height: 50%;
+    width: 100%;
+    position: absolute;
+}
+
+.sa-pattern-bg {
+    background: #55586b url(../../assets/images/grid.webp);
+}
+
+.login-logo {
+    margin-top:4%;
+    width: 35% !important;
+    margin-left: 5%;
+}
+
+.logo-card {
+    margin-left: 40%;
+    width: 20%;
+}
+
+.login-cardform {
+    margin-top: 25%;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.ls_Login {
+    color: #2D4FB0;
+    text-decoration: underline;
+    margin-left: 60px;
+    font-size: 14px;
+}
+
+
+
+@media screen and (max-width:1024px) and (min-width:769px) {
+    .login-cardform {
+        margin-top: 20%;
+        border-radius: 10px;
+    }
+    .login-logo {
+        margin-top: 10%;
+        width:35% !important;
+    }
+}
+@media screen and (max-width:768px) and (min-width:511px) {
+    .login-cardform {
+        margin-top: 60%;
+        border-radius: 10px;
+        margin-bottom: 50px;
+    }
+    .login-logo {
+        margin-top: 35%;
+        width:40% !important;
+    }
+}
+@media screen and (max-width:510px){
+    .login-cardform {
+        margin-top: 60%;
+        border-radius: 10px;
+        margin-bottom: 50px;
+    }
+    .login-logo {
+        margin-top: 5% !important;
+        width:70% !important;
+        margin: 0px auto;
+    }
+    .ls_Login {
+        color: #2D4FB0;
+        text-decoration: underline;
+        margin-left: 6px;
+        font-size: 14px;
+        white-space: nowrap;
+    }
+}
+
+.login-cardheader {
+    font-size: 20px;
+    color: #004E73;
+    
+}
+
+.login-button {
+    width: 80%;
+}
+
+.carousal-btn {
+    border: 1px solid #ffcc4e;
+    color: #ffcc4e;
+    border-radius: 5px;
+}
+
+.login-forgetpassword {
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.login-forgetpassword:hover{
+    color:#004E73 ;
+}
+

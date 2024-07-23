@@ -1,0 +1,55 @@
+{
+    "in_en": {
+        "We_love_to_hear_from_you": "We'd love to hear from you",
+        "To_get_instant_response_to_your_query": "To get instant response to your query",
+        "Help_us_serve_you_better_by_sharing_your_feedback": "Help us serve you better by sharing your feedback",
+        "Name": "Name",
+        "Mobile": "Mobile",
+        "Alternate_Mobile": "Alternate Mobile",
+        "Email": "Email",
+        "Description": "Description",
+        "Submit": "Submit",
+        "Registered_Office": "Registered Office",
+        "Address": "Address",
+        "Phone": "Phone",
+        "Need_Help": "Need Help?",
+        "Get_in_Touch":"Get in Touch",
+        "Write_us_a_message":"Write us a message"
+    },
+    "ae_ar": {
+        "We_love_to_hear_from_you": "كنا نحب أن نسمع منك",
+        "To_get_instant_response_to_your_query": "ساعدنا في خدمتك بشكل أفضل من خلال مشاركة ملاحظاتك",
+        "Help_us_serve_you_better_by_sharing_your_feedback": "ساعدنا في خدمتك بشكل أفضل من خلال مشاركة ملاحظاتك",
+        "Name": "اسم",
+        "Mobile": "متحرك",
+        "Email": "بريد إلكتروني",
+        "Alternate_Mobile": "Alternate Mobile",
+        "Description": "وصف",
+        "Submit": "يُقدِّم",
+        "Registered_Office": "مكتب مسجل",
+        "Address": "عنوان",
+        "Phone": "هاتف",
+        "Need_Help": "تحتاج مساعدة؟",
+        "Get_in_Touch":"معلم معروف",
+        "Write_us_a_message":"ابقى على تواصل"
+
+    },
+    "ae_en": {
+        "We_love_to_hear_from_you": "We'd love to hear from you",
+        "To_get_instant_response_to_your_query": "To get instant response to your query",
+        "Help_us_serve_you_better_by_sharing_your_feedback": "Help us serve you better by sharing your feedback",
+        "Name": "Name",
+        "Mobile": "Mobile",
+        "Alternate_Mobile": "Alternate Mobile",
+        "Email": "Email",
+        "Description": "Description",
+        "Submit": "Submit",
+        "Registered_Office": "Registered Office",
+        "Address": "Address",
+        "Phone": "Phone",
+        "Need_Help": "Need Help?",
+        "Get_in_Touch":"Get in Touch",
+        "Write_us_a_message":"Write us a message"
+
+    }
+}

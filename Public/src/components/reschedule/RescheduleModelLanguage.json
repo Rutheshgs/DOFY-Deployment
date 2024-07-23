@@ -1,0 +1,37 @@
+{
+    "in_en": {
+        "Please_Provide_Reschedule_Reason" :"Please Provide Reschedule Reason",
+        "Appointment_Date": "Appointment Date",
+        "Order_Status": "Order Status",
+        "City":"City",
+        "Please_select_Reason": "Please select Reason",
+        "Comments": "Comments",
+        "Save" : "Save",
+        "Close" :"Close",
+        "Select_Reason":"Select Reason*"
+    },
+    "ae_ar": {
+        "Please_Provide_Reschedule_Reason" :"يرجى تقديم سبب إعادة الجدولة",
+        "Appointment_Date": "تاريخ الموعد",
+        "Order_Status": "حالة الطلب",
+        "City":"مدينة",
+        "Please_select_Reason": "الرجاء تحديد السبب",
+        "Comments": "تعليقات",
+        "Save" : "وفر ",
+        "Close" :"يغلق",
+        "Select_Reason":"حدد السبب"
+
+    },
+    "ae_en": {
+        "Please_Provide_Reschedule_Reason" :"Please Provide Reschedule Reason",
+        "Appointment_Date": "Appointment Date",
+        "Order_Status": "Order Status",
+        "City":"City",
+        "Please_select_Reason": "Please select Reason",
+        "Comments": "Comments",
+        "Save" : "Save",
+        "Close" :"Close",
+        "Select_Reason":"Select Reason*"
+
+    }
+}

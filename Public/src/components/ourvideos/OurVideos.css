@@ -1,0 +1,133 @@
+@keyframes zoomUp {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.2);
+    }
+  }
+
+.ov-grid {
+    background-color: var(--dofy-color-secondary-bg-new);
+}
+
+.ov-padding-adjustment {
+    padding: 30px 150px;
+}
+
+.ov-header-1 {
+    font-weight: bold;
+    font-size: large;
+    color: var(--dofy-color-secondary-new);
+}
+
+.ov-header-2 {
+    font-size: small;
+    color: var(--dofy-color-secondary-new);
+}
+
+.ov-header-row {
+    margin-bottom: 20px !important;
+}
+
+.ov-card-menus {
+    position: absolute;
+    bottom: 20px;
+}
+
+.ov-card-header-1 {
+    color: var(--dofy-color-primary-bg-new);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.ov-card-header-2 {
+    color: var(--dofy-color-primary-bg-new);
+    font-size: 15px;
+}
+
+.ov-card-header-3 {
+    color: var(--dofy-color-primary-bg-new);
+    font-size: 12px;
+}
+
+.ov-card-header-4 {
+    color: var(--dofy-color-primary-bg-new);
+    font-size: 10px;
+}
+
+.ov-avatar {
+    height: 35px;
+    width: 35px;
+    top: -4px;
+}
+
+.ov-bg-img{
+    filter: brightness(0.5);
+}
+.ov-avatar {
+    position: relative; /* Set the button's position to relative */
+}
+  
+  .ov-avatar:hover {
+    animation: zoomUp 0.2s ease forwards; 
+  }
+
+@media (max-width:1024px) {
+    .ov-padding-adjustment {
+        padding: 30px 0px;
+    }
+
+    .ov-avatar {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+@media (max-width:768px) {
+    .ov-avatar {
+        height: 30px;
+        width: 30px;
+        top: -4px;
+    }
+
+    .ov-card-header-1 {
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+
+    .ov-card-header-3 {
+        font-size: 10px;
+        margin-left: 10px;
+    }
+
+    .ov-card-header-4 {
+        font-size: 9px;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width:510px) {
+    .ov-avatar {
+        height: 35px;
+        width: 35px;
+    }
+
+    .ov-card-header-1 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .ov-card-header-2 {
+        font-size: 12px;
+    }
+
+    .ov-card-header-3 {
+        font-size: 11px;
+    }
+
+    .ov-card-header-4 {
+        font-size: 9px;
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "in_en": {
+        "Select_Your_Variant": "Select Your Variant",
+        "Search_your_Variant": "Search your Variant",
+        "No_records_found": "No records found",
+        "Get_upto": "Get upto:",
+        "GET_PAID": "GET PAID"
+    },
+    "ae_ar": {
+        "Select_Your_Variant": "حدد نوع الهاتف المحمول الخاص بك",
+        "Search_your_Variant": "ابحث في المتغير الخاص بك",
+        "No_records_found": "لا توجد سجلات",
+        "Get_upto": "احصل على ما يصل:",
+        "GET_PAID": "احصل على الدفع"
+    },
+    "ae_en": {
+        "Select_Your_Variant": "Select Your Variant",
+        "Search_your_Variant": "Search your Variant",
+        "No_records_found": "No records found",
+        "Get_upto": "Get upto:",
+        "GET_PAID": "GET PAID"
+    }
+}

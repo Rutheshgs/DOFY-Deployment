@@ -1,0 +1,50 @@
+.title-color {
+    color: #004E73;
+}
+
+.p-5 {
+    padding: 5px !important;
+}
+
+.p-0 {
+    padding: 0px;
+}
+
+.mb-1 {
+    margin-bottom: 1px;
+}
+
+.m-1 {
+    margin: 1px;
+}
+
+.questionaire-option {
+    font-size: 12px;
+}
+
+.questionaire-question {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* @media screen and (max-width:525px) and (min-width:768px) {
+    .questionaire-question {
+        font-size: 9.5px;
+        font-weight: bold;
+    }
+} */
+
+@media screen and (max-width:510px) {
+    .requote {
+        font-size: 15px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .requote {
+        font-size: 13px;
+        padding: 0;
+
+    }
+}

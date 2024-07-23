@@ -1,0 +1,363 @@
+.cu-title::after {
+    left: 0;
+    right: 5px;
+    width: 40%;
+    bottom: -2px;
+    height: 4px;
+    margin: 0 auto;
+    content: '';
+    position: absolute;
+    max-width: 100px;
+    background-color: #ffcc4e;
+}
+
+.cu-header-row {
+    background: #8ba4da;
+    height: 150px;
+    color: white;
+    padding: 30px 0px 30px 10px;
+}
+
+.cu-header-text {
+    font-size: 24px;
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+.cn_title-padding {
+    padding: 50px 100px;
+}
+
+.check-to-accept {
+    position: absolute;
+}
+
+.check-text {
+    margin-left: 24px;
+}
+
+.check-text-ae {
+    margin-right: 24px;
+}
+
+.cu-row {
+    background-color: white;
+    margin-top: -55px;
+    width: 95%;
+    margin-left: 2.5%
+}
+
+.cu-text-head {
+    font-size: 20px;
+    font-weight: bold;
+    color: #004E73;
+    text-align: center;
+    align-items: center;
+}
+
+.cu-card {
+    background-color: #FAFAFA;
+}
+
+.cu-innertext {
+    color: #004E73;
+    font-weight: bold;
+}
+
+.cu-innertexts {
+    color: #004E73;
+    font-weight: normal;
+}
+
+.cu-innerlinks {
+    color: #004E73;
+    font-weight: normal;
+}
+
+.contactus-card {
+    border: 1px solid #b9d5e2;
+    border-radius: 5px;
+    height: 100%;
+    /* background: #fff url(../../assets/images/curveline.svg); */
+    background-size: contain;
+}
+
+.regoffice-card {
+    box-shadow: unset;
+    border: 1px solid #b9d5e2;
+    border-radius: 5px;
+    /* background: url(../../assets/images/pattern.png); */
+    background-size: cover;
+}
+
+.address-icon {
+    padding-right: 5px;
+    padding-top: 10px;
+}
+
+.cn_title-style {
+    color: #425367;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.cn_text-style {
+    color: #425367;
+    font-size: 15px;
+}
+
+.cn_card-style {
+    background: #FFFFFF;
+    border: 1px solid #D9E0E8;
+    border-radius: 5px;
+    box-shadow: none;
+    padding: 20px;
+    text-align: center;
+}
+
+.cn_card-image {
+    width: 50px;
+    margin: 0px auto;
+}
+
+.cn_card-header {
+    color: #425367;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.cn_message-card-left {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 46px #0000001F;
+    opacity: 1;
+    margin-right: -100px;
+    margin-top: 40px;
+}
+
+.cn_message-card-right {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 46px #0000001F;
+    opacity: 1;
+    margin-left: -100px;
+    margin-top: 40px;
+}
+
+.cn_In-border {
+    border: 1px solid #E1E7ED;
+    border-radius: 5px;
+}
+
+.cn_cardcontent-style {
+    padding: 50px 100px;
+}
+
+.contact_address {
+    position: absolute;
+    bottom: 230px;
+}
+
+.contact_address-text {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize !important;
+}
+
+.contact_label {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.contact_ad {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+
+@media screen and (max-width:1024px) {
+    .cu-title::after {
+        bottom: -10px;
+    }
+
+    .cn_message-card {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .cn_message-card {
+        margin-left: 10px;
+        margin-top: -250px;
+    }
+
+    .cn_message-card-right {
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 46px #0000001F;
+        opacity: 1;
+        margin-left: 0px !important;
+        margin-top: 0px !important;
+    }
+
+    .cn_card-fontsize {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:510px) {
+    .cu-header-text {
+        font-size: 23px;
+        font-weight: 700;
+    }
+
+    .cu-title::after {
+        bottom: -10px;
+    }
+
+    .cn_title-padding {
+        padding: 0;
+    }
+
+    .cn_title-padding {
+        padding: 30px;
+    }
+
+    .cn_message-card {
+        margin: 0px;
+    }
+
+    .cn_cardcontent-style {
+        padding: 20px 0px;
+    }
+
+    .cn_message-card-right {
+        background: #FFFFFF 100% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 46px #0000001F;
+        opacity: 1;
+        margin-left: 0px !important;
+        margin-top: 0px !important;
+    }
+
+    .cn_message-card-left {
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 46px #0000001F;
+        opacity: 1;
+        margin-right: 0px !important;
+        margin-top: 0px !important;
+        margin: 0px !important
+    }
+
+    .contact_address {
+        position: absolute;
+        bottom: 35px;
+    }
+
+    .contact_address-text {
+        font-size: 14px;
+        font-weight: 600;
+        color: #fff;
+    }
+
+    .contact_label {
+        font-size: 12px;
+        font-weight: 400;
+        color: #fff;
+    }
+
+    .contact_ad {
+        font-size: 20px;
+        font-weight: 600;
+        color: #fff;
+    }
+
+
+    .cn_message-card-right {
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 46px #0000001F;
+        opacity: 1;
+        margin-left: 0px !important;
+        margin-top: -40px !important;
+        margin: 0px auto;
+    }
+}
+
+@media (min-width:520px) and (max-width:768px) {
+    .contact_address {
+        position: absolute;
+        bottom: 130px;
+    }
+
+    .contact_address-text {
+        font-size: 20px;
+        font-weight: 600;
+        color: #fff;
+    }
+
+    .contact_label {
+        font-size: 14px;
+        font-weight: 400;
+        color: #fff;
+    }
+
+    .contact_ad {
+        font-size: 20px;
+        font-weight: 600;
+        color: #fff;
+    }
+
+    .cn_message-card-right {
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 46px #0000001F;
+        opacity: 1;
+        margin-left: 0px !important;
+        margin-top: -80px !important;
+        margin: 0px auto;
+    }
+}
+
+@media (max-width:366px) {
+    .contact_address {
+        position: absolute;
+        bottom: -5px;
+        top: 1px;
+    }
+
+    .cn_message-card-right {
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 46px #0000001F;
+        opacity: 1;
+        margin-left: 0px !important;
+        margin-top: 0px !important;
+        margin: 0px auto;
+    }
+}
+
+@media (max-width:375px) {
+    .contact_address {
+        position: absolute;
+        bottom: 25px;
+        top: 1px;
+    }
+}
+
+
+.contact-grid ul {
+    display: flex;
+    padding-left: 0px;
+}
+
+.contact-grid ul li {
+    list-style: none;
+}
+
+.contact-grid ul li {
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin: 0 10px;
+    padding: 6px;
+    color: white;
+    cursor: pointer;
+}

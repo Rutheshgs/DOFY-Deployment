@@ -1,0 +1,81 @@
+#Public - dependencies
+/Public/node_modules
+/Public/.pnp
+/Public/.pnp.js
+/Public/build
+/Public/package-lock.json
+
+#Admin - dependencies
+/Admin/node_modules
+/Admin/.pnp
+/Admin/.pnp.js
+/Admin/build
+/Admin/package-lock.json
+
+# testing
+/Public/coverage
+/Admin/coverage
+
+# production
+/Public/build
+/Admin/build
+
+# misc
+.DS_Store
+# .env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.vscode
+.idea
+
+/Public/npm-debug.log*
+/Public/yarn-debug.log*
+/Public/yarn-error.log*
+
+/Admin/npm-debug.log*
+/Admin/yarn-debug.log*
+/Admin/yarn-error.log*
+
+# Optional eslint cache
+.eslintcache
+
+
+Services/src/API/DOFY.Admin.API/bin/
+Services/src/API/DOFY.Admin.API/obj/
+Services/src/API/DOFY.Public.API/obj/
+Services/src/Core/DOFY.Contracts/bin/
+Services/src/Core/DOFY.Contracts/obj/
+Services/src/Core/DOFY.DAL/bin/
+Services/src/Core/DOFY.DAL/obj/
+Services/src/Core/DOFY.DataMappers/bin/
+Services/src/Core/DOFY.DataMappers/obj/
+Services/src/Core/DOFY.DBO/bin/
+Services/src/Core/DOFY.DBO/obj/
+Services/src/Core/DOFY.Model/bin/
+Services/src/Core/DOFY.Model/obj/
+Services/src/Core/DOFY.ViewEntities/bin/
+Services/src/Core/DOFY.ViewEntities/obj/
+Services/src/Utilities/DOFY.Attributes/obj/
+Services/src/Utilities/DOFY.Helper/obj/
+Services/src/Utilities/DOFY.Attributes/bin/
+Services/src/API/DOFY.Public.API/bin/
+Services/.vs/
+.vs/
+Services/src/Utilities/DOFY.Cache/bin/
+Services/src/Utilities/DOFY.Cache/obj/
+Services/src/Utilities/DOFY.Helper/bin/
+Services/src/Services/DOFY.NotificationService/bin/
+Services/src/Services/DOFY.NotificationService/obj/
+Services/src/Utilities/DOFY.Logger/bin/
+Services/src/Utilities/DOFY.Logger/obj/
+Services/Build/
+Build/
+Services/packages/
+Services/src/API/DOFY.Report.API/DOFY.Report.API.csproj.user
+Services/src/API/DOFY.Report.API/bin/
+Services/src/API/DOFY.Report.API/obj/
+Public/build.zip
+Admin/build.zip
+Services/src/Utilities/DOFY.UploadHelper/bin/
+Services/src/Utilities/DOFY.UploadHelper/obj/

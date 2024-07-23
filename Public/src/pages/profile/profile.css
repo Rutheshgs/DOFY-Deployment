@@ -1,0 +1,108 @@
+.profile-page {
+    margin-top: 52px;
+}
+
+@media screen and (max-width:510px) {
+    .profile-page {
+        margin-top: 60px;
+    }
+
+    .profile-text {
+        font-size: 15px;
+        padding-top: 28px !important;
+    }
+
+}
+
+.profile-accordion-icons {
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: small;
+}
+
+.profile-btn-gap {
+    margin-top: 10px;
+    background: transparent;
+}
+.p_font-size{
+    white-space: pre;
+    font-size: 14px;
+}
+
+.profile-avator {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #004E73;
+    border-radius: 100%;
+    padding: 8px;
+    background-color: #2D4FB0;
+}
+
+.profile-avator ion-text {
+    font-size: 15px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: white;
+}
+
+.profile-text {
+    font-size: 15px;
+    padding-top: 15px;
+}
+
+.profile-bg-cont {
+    --background: #fff
+}
+
+.profile-logout {
+    border: 1px solid rgb(146, 143, 143);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.profile-close ion-menu-button {
+    position: absolute;
+    right: 0;
+}
+
+.profile-detail {
+    background-color: #ffffff;
+    border-bottom: 1px solid #eee;
+    padding: 0;
+}
+
+
+.my-account-btn {
+    color: black;
+}
+
+.pr_modal {
+    --height: 96% !important;
+}
+
+
+.profile_item-btn {
+    --background: #efefef;
+    --border-radius: 25px;
+}
+
+.profile_menu-btn:hover {
+    --background-color: #2D4FB0;
+}
+
+
+@media (max-width:530px) {
+    .pr_modal {
+        --height: 100% !important;
+    }
+}
+
+@media (min-width:535px) and (max-width:768px) {
+    .pr_modal {
+        --height: 75% !important;
+    }
+}
+
+.btn-border {
+    border-radius: 10px;
+}

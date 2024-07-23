@@ -1,0 +1,31 @@
+.tabs-bg {
+    background: #fff url(../../assets/images/grid.png);
+    color: white;
+}
+
+.tab-coming-soon {
+    height: auto;
+    position: absolute;
+    width: 40px;
+    height: auto;
+    top: 0px;
+    right: 15px;
+}
+
+@media screen and (max-width:768px) {
+    .tab-coming-soon {
+        right: 45px;
+    }
+}
+
+@media screen and (max-width:510px) {
+    .tab-coming-soon {
+        right: 7px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .tab-coming-soon {
+        right: 0px;
+    }
+}

@@ -1,0 +1,14 @@
+.co_dropdown_width {
+    --width: 400px;
+    margin-left: -130px;
+    margin-top: 10px;
+}
+
+@media (min-width:1024px) and (max-width:1400px) {
+    ion-select {
+        position: relative;
+        max-width: 100%;
+        white-space: pre-line !important;
+        text-align: left;
+    }
+}

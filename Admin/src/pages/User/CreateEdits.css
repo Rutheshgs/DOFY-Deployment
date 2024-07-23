@@ -1,0 +1,266 @@
+.account-header {
+    background-color: #004E73;
+    height: 50%;
+    width: 100%;
+    position: absolute;
+}
+
+.account-logo {
+    margin-top: 5%;
+    width: 35%;
+}
+
+.account-cardform {
+    margin-top: 3%;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.cs_upload-image {
+    margin-left: 120px;
+}
+
+.ce-margin {
+    /* margin-bottom: 5px; */
+    margin-left: 15px;
+    font-size: 15px;
+    color: black;
+    font-weight: 500;
+}
+
+.cs_img {
+    width: 55%;
+    margin-left: 70px;
+    margin-bottom: 50px;
+}
+
+.uae_input {
+    border: 0.5px solid #bbbcbc;
+    border-radius: 3px;
+    height: 40px;
+    margin-bottom: 8px;
+    color: black;
+}
+
+.uae_dd-input {
+    margin-bottom: 10px;
+}
+
+.profile_delete {
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 180px;
+}
+
+
+.account-cardheader {
+    font-size: 20px;
+    font-weight: bold;
+    color: #004E73;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+
+input[type=number]::-webkit-outer-spin-button {
+
+    -webkit-appearance: none !important;
+
+    margin: 0 !important;
+}
+.error-padding{
+    font-size: 13px;
+}
+.error-padding-dd {
+    font-size: 13px;
+}
+
+.delete_icon {
+    color: white;
+}
+
+
+@media screen and (max-width:1024px) {
+    .account-cardform {
+        margin-top: 25%;
+        border-radius: 10px;
+    }
+
+    .account-logo {
+        margin-top: 8%;
+        width: 45% !important;
+    }
+
+    .uae_input {
+        border: 0.5px solid #bbbcbc;
+        border-radius: 3px;
+        height: 40px;
+        margin-bottom: 5px;
+        color: black;
+    }
+
+    .cs_img {
+        width: 55%;
+        margin-left: 70px;
+        margin-bottom: 50px;
+    }
+
+
+    .cs_upload-image {
+        margin-left: 120px;
+    }
+
+    .account-cardheader {
+        font-size: 20px;
+        font-weight: bold;
+        color: #004E73;
+    }
+
+    .profile_delete {
+        position: absolute;
+        margin-top: -70px;
+        margin-left: 180px;
+    }
+
+    .ce-margin {
+        margin-bottom: 5px;
+        margin-left: 15px;
+        font-size: 15px;
+        color: black;
+        font-weight: 500;
+    }
+
+    .uae_dd-input {
+        margin-bottom: 8px;
+    }
+
+    .error-padding {
+        margin-left: 8px;
+        margin-top: -10px;
+        font-size: 12px;
+
+    }
+}
+
+@media screen and (max-width:768px) {
+    .account-cardform {
+        margin-top: 40%;
+        border-radius: 10px;
+        margin-bottom: 50px;
+    }
+
+    .account-logo {
+        width: 45% !important;
+        margin: 0px auto;
+    }
+
+    .uae_input {
+        border: 0.5px solid #b4b4b4;
+        border-radius: 3px;
+        height: 40px;
+        margin-bottom: 5px;
+        color: black;
+    }
+
+    .cs_img {
+        width: 25%;
+        margin-left: 160px;
+        margin-bottom: 50px;
+    }
+
+
+    .cs_upload-image {
+        margin-left: 120px;
+    }
+
+    .ce-margin {
+        margin-bottom: 5px;
+        margin-left: 15px;
+        font-size: 15px;
+        color: black;
+        font-weight: 500;
+    }
+
+    .uae_dd-input {
+        margin-bottom: 15px;
+    }
+
+    .profile_delete {
+        position: absolute;
+        margin-top: -90px;
+        margin-left: 320px;
+    }
+
+    .error-padding {
+        margin-left: 8px;
+        margin-top: -10px;
+        font-size: 12px;
+
+    }
+}
+
+@media screen and (max-width:510px) {
+    .account-cardform {
+        margin-top: 60%;
+        border-radius: 10px;
+        margin-bottom: 50px;
+    }
+
+    .account-logo {
+        width: 80% !important;
+        margin: 0px auto;
+    }
+
+    .ce-margin {
+        margin-bottom: 5px;
+        margin-left: 12px;
+    }
+
+    .uae_input {
+        border: 0.5px solid #bbbcbc;
+        border-radius: 3px;
+        height: 40px;
+        margin-bottom: 5px;
+        color: black;
+    }
+
+    .cs_img {
+        width: 40%;
+        margin-left: -20px;
+        margin-bottom: 50px;
+    }
+
+    .cs_upload-image {
+        margin-left: 120px;
+    }
+
+    .ce-margin {
+        margin-bottom: 5px;
+        margin-left: 15px;
+        font-size: 15px;
+        color: black;
+        font-weight: 500;
+    }
+
+    .uae_dd-input {
+        margin-bottom: 10px;
+    }
+
+    .profile_delete {
+        position: absolute;
+        margin-top: -70px;
+        margin-left: 90px;
+    }
+
+    .error-padding {
+        margin-left: 5px;
+        font-size: 12px;
+
+    }
+}
+
+/* .dancer {
+    border-radius: 50px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+} */

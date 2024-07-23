@@ -1,0 +1,9 @@
+{
+	"appId": "com.dofy.public",
+	"appName": "Dofy",
+	"webDir": "build",
+	"bundledWebRuntime": false,
+	"ios": {
+		"contentInset": "always"
+	}
+}

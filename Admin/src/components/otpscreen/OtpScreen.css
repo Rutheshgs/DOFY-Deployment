@@ -1,0 +1,23 @@
+.os_Input-align{
+    margin: 0px auto;
+}
+
+.os_Input-align input{
+    width: 40px !important;
+    height: 40px;
+    border-radius: 10px;
+}
+/* @media (min-width:520px) and (max-width:800px){
+    .os_Input-align{
+        width: 3em;
+        margin-left: 37px;
+    }
+}
+
+@media (max-width:500px){
+    .os_Input-align{
+        width: 3em;
+        margin-left: 10px;
+    }
+} */
+

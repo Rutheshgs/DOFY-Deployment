@@ -1,0 +1,66 @@
+.sca-grid ion-radio {
+    --color-checked: var(--dofy-color-primary-new) !important;
+}
+
+.sca-grid ion-accordion {
+    margin-bottom: 10px;
+}
+
+.sca-grid ion-modal {
+    --background: transparent;
+    --box-shadow: unset;
+}
+
+.sa-address-choose-address {
+    border-radius: 5px;
+    background: #f2f5fc;
+    color: var(--dofy-color-primary-new);
+    font-weight: 600;
+}
+
+.sa-address-header {
+    color: var(--dofy-color-primary-new);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.sa-add-address-card {
+    padding-left: 15px;
+}
+
+.sa-add-address-card button {
+    background: var(--dofy-color-primary-new);
+}
+
+.sa-address-card {
+    background: white;
+    border: 0.5px solid #1A4FBF;
+    box-shadow: unset;
+    padding: 10px;
+    height: max-content;
+    cursor: pointer;
+}
+
+.sa-custom-ion-item {
+    --min-height: 0px;
+    --padding-start: 0px;
+    --padding-end: 0px;
+    --inner-padding-end: 0px;
+    left: 0 !important;
+    width: 100%;
+    z-index: 2;
+}
+
+.sa-custom-ion-item ion-text {
+    font-size: 14px;
+    color: rgb(159, 161, 161);
+}
+
+.sa-custom-ion-item ion-label {
+    text-overflow: unset !important;
+}
+
+.sa-address-controlls {
+    color: var(--dofy-color-primary-new) !important;
+    cursor: pointer;
+}

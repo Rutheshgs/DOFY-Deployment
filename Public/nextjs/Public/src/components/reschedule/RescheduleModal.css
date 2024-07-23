@@ -1,0 +1,66 @@
+.Reschedule-order-btn-schedule {
+    background-color: #2fdf75;
+    color: white;
+}
+
+.Reschedule-order-btn-cancel {
+    background-color: #ff4961;
+    color: white;
+}
+
+.ls_btn-color {
+    background-color: #2D4FB0;
+    border-radius: 5px;
+}
+
+.reschedule_modal {
+    --width: 330px;
+    margin-left: -123px;
+    margin-top: 10px;
+    --max-width: 500px;
+}
+
+.header-title {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.rm_signin-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    color: #444851;
+}
+.rm_padding-adjustment{
+    padding: 30px 50px;
+    background-color: #fff;
+}
+.rm_card-style{
+    background-color: #ebeef6;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: none;
+    text-align: center;
+    
+}
+.rm_card-label{
+    font-size: small;
+    color: #686b71;
+    
+}
+.rm_card-text{
+    font-size: 15px;
+    font-weight: 600;
+    color: #1e4496;
+}
+.rm_close-btn{
+    padding-top: 5px;
+    margin-top: 5;
+   
+}
+@media (min-width:520px) and (max-width:768px){
+   .rm_card-label{
+    font-size: 12px;
+   }
+}

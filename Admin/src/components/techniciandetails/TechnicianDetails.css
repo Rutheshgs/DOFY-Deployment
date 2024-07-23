@@ -1,0 +1,42 @@
+.text-style {
+    font-size: 14px;
+}
+
+.technician_card {
+    height: 311px;
+}
+
+.Td_btn {
+    font-size: 12px;
+}
+
+.td_Heading {
+    font-size: 20px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+@media (max-width:768px) {
+    .card-height {
+        height: 100% !important;
+    }
+}
+
+@media (min-width:780px) and (max-width:1024px) {
+    .card-height {
+        height: 100% !important;
+    }
+}
+
+@media (max-width:768px) {
+    .font-size {
+        font-size: larger;
+    }
+}
+
+.td_name_space {
+    padding-left: 8px !important;
+}
+
+
+

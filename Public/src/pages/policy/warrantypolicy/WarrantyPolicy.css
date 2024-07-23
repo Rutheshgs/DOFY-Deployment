@@ -1,0 +1,37 @@
+.wp-header-row {
+    background-color: var(--dofy-color-dark);
+    height: 150px;
+    color: white;
+}
+
+.wp-padding {
+    padding: 30px 0px 30px 10px;
+}
+
+.wp-header-text {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.wp-row {
+    background-color: white;
+    margin-top: -55px;
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.wp-img {
+    height: 80px;
+    width: 100%;
+}
+
+@media screen and (max-width:510px) {
+    .wp-img {
+        height: 70px;
+        width: 100%;
+    }
+}
+
+.wp-text {
+    text-align: justify;
+}

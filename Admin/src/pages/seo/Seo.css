@@ -1,0 +1,17 @@
+.si_space {
+    padding-left: 8px !important;
+}
+
+.si_button {
+    padding-left: 80%;
+}
+
+.seo-text-area textarea{
+    height: 200px;
+}
+
+@media screen and (max-width:510px) {
+    .si_button {
+        padding-left: 18%;
+    }
+}

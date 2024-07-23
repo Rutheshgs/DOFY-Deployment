@@ -1,0 +1,36 @@
+.IMEI-addicon{
+    width:40%;
+    height: 40%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.IMEI-trash_icon{
+    width: 40%;
+    height: 40%;
+}
+.IMEI-Scan_btn{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+input[type=number]::-webkit-inner-spin-button,
+
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0 !important;
+}
+.checkmark_icon{
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: -10px;
+}
+.close_icon{
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: -10px;
+}
+
+@media (max-width:768px) and (min-width:510px){
+.ion-text-center{
+    padding-top: 13px;
+}    
+}

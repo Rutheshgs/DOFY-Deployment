@@ -1,0 +1,134 @@
+.hp_img-card {
+    width: 20%;
+    height: auto;
+    margin: 0px auto;
+    margin-top: 10px;
+
+}
+
+.text-bold-AED {
+    font-weight: bold;
+    white-space: nowrap;
+    margin: 14px;
+}
+
+.up-btn {
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+@media (max-width:510px) {
+    .hp_img-card {
+        width: 30%;
+        height: auto;
+        margin: 0px auto;
+        margin-top: 10px;
+    }
+}
+
+.hp_cancelrequest-font {
+    font-size: smaller;
+    white-space: pre;
+}
+
+.hp_card-border {
+    border-radius: 10px;
+
+}
+
+.hp_card-text {
+    font-weight: 600;
+}
+
+@media (max-width:520px) {
+    .hp_title {
+        font-weight: bold;
+        white-space: nowrap;
+    }
+}
+
+.hp_title {
+    font-weight: bold;
+    white-space: nowrap;
+
+}
+
+.hp_size {
+    width: 100%;
+    height: auto;
+
+}
+
+.text-bold-AED {
+    font-weight: bold;
+    white-space: nowrap;
+
+}
+
+.Aed {
+    margin-left: 0px;
+    color: black;
+}
+
+.marquee {
+    height: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.marquee p {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    color: var(--dofy-color-primary-new);
+    font-weight: 600;
+    text-align: center;
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    -moz-animation: scroll-left 2s linear infinite;
+    -webkit-animation: scroll-left 2s linear infinite;
+    animation: scroll-left 7s linear infinite;
+}
+
+@-moz-keyframes scroll-left {
+    0% {
+        -moz-transform: translateX(100%);
+    }
+
+    100% {
+        -moz-transform: translateX(-100%);
+    }
+}
+
+@-webkit-keyframes scroll-left {
+    0% {
+        -webkit-transform: translateX(50%);
+    }
+
+    100% {
+        -webkit-transform: translateX(-50%);
+    }
+}
+
+@keyframes scroll-left {
+    0% {
+        -moz-transform: translateX(50%);
+        -webkit-transform: translateX(50%);
+        transform: translateX(50%);
+    }
+
+    100% {
+        -moz-transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+}
+
+@media (max-width:375px) {
+   .hp_SegmentBtn{
+    font-size: 12px;
+    min-width: auto;
+   } 
+}

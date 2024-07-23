@@ -1,0 +1,9 @@
+{
+	"appId": "com.dofy.rider",
+	"appName": "DofyRider",
+	"webDir": "build",
+	"bundledWebRuntime": false,
+	"ios": {
+		"contentInset": "always"
+	}
+}

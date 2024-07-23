@@ -1,0 +1,369 @@
+.modal-location {
+    --max-height: 70% !important;
+    --width: 70% !important;
+    --border-radius: 10px !important;
+}
+
+ion-backdrop {
+    opacity: 0.3;
+    height: 100%;
+    position: fixed;
+    touch-action: none;
+  }
+
+.location-search-item {
+    margin-left: -9px;
+}
+
+.location-search-item ion-label {
+    width: max-content !important;
+    min-width: max-content !important;
+    max-width: max-content !important;
+}
+
+.custom-suggestions {
+    margin-left: -10px !important;
+    width: 100% !important;
+    max-height: 300% !important;
+}
+
+.custom-suggestions::-webkit-scrollbar {
+    width: 15px;
+}
+
+.custom-suggestions::-webkit-scrollbar-thumb {
+    border: 4px solid rgba(0, 0, 0, 0);
+    background-clip: padding-box;
+    border-radius: 9999px;
+    background-color: #AAAAAA;
+}
+
+.location-col .swiper-wrapper {
+    padding-bottom: 10px;
+}
+
+.location-button-next,
+.location-button-prev {
+    margin-top: 33px;
+    color: #004E73;
+    font-size: 25px;
+}
+
+.location-warning {
+    font-size: 14px;
+    color: #df4a58;
+}
+
+.location-items {
+    border: 1px solid rgb(212, 210, 210);
+    font-size: 10px;
+    font-weight: 600;
+    --min-height: 18px !important;
+}
+
+.location-items ion-label {
+    overflow: unset !important;
+}
+
+.cities-name {
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.location-col .swiper-pagination {
+    bottom: -6.3px !important;
+}
+
+.location-serve {
+    font-size: 12px;
+}
+
+.location-col {
+    text-align: center;
+}
+
+.location-card {
+    height: 100px;
+    width: 100px;
+    padding: 7px;
+    text-align: center;
+    box-shadow: none;
+    border: 1px solid;
+    border-color: #A7AFB2;
+    background-color: #FFFFFF;
+  
+
+}
+
+.location-card ion-text {
+    overflow: unset;
+    white-space: nowrap;
+    font-size: 13px;
+    font-weight: 600;
+    color: #A7AFB2;
+}
+
+.search-btn {
+    margin-top: 10px;
+}
+
+.location-card-title {
+    font-size: 15px;
+    color: var(--dofy-color-text-new);
+}
+
+.label {
+    text-decoration: underline;
+    font-size: small;
+    padding-top: 160px;
+}
+
+.modal-close-icon {
+    position: absolute;
+    cursor: pointer;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+}
+
+@media screen and (max-width:1024px) {
+    .modal-location {
+        --max-height: 80% !important;
+        --width: 85% !important;
+    }
+
+    .location-button-next,
+    .location-button-prev {
+        margin-top: 33px;
+        color: #004e73;
+        font-size: 25px;
+
+    }
+
+    .location-card {
+        height: 100px;
+        padding: 2px;
+    }
+
+    .location-card ion-text {
+        overflow: unset;
+        white-space: nowrap;
+        font-size: 13px;
+        font-weight: 600;
+        color: #A7AFB2;
+    }
+
+}
+
+.custom-bg {
+    --border-radius: 5px;
+    --box-shadow: 0px 2px 2px 0 rgba(0, 0, 0, .14), 0 2px 1px -2px rgba(0, 0, 0, .2), 0 1px 1px 0 #eee;
+    padding-top: 0 !important;
+}
+
+.selected-dist {
+    border: 1px solid #1e4496;
+}
+
+.selected-dist ion-text {
+    color: #1e4496 !important;
+}
+
+.locate {
+    color: blue;
+}
+
+.location-label {
+    margin-top: 5px;
+    margin-bottom: 24px;
+}
+
+.label {
+    position: absolute;
+    bottom: 0;
+    text-decoration: underline;
+    font-size: small;
+    padding-top: 170px;
+}
+.lm_image-changes{
+    height: 65px;
+}
+
+@media screen and (max-width:768px) {
+    .modal-location {
+        --max-height: 80% !important;
+        --width: 85% !important;
+    }
+
+    .location-search-item {
+        --padding-start: 0px !important;
+        --inner-padding-end: 0px !important;
+    }
+
+    .location-search-item {
+        margin-left: 6px;
+    }
+
+    .location-card {
+        height: 100px;
+        padding: 2px;
+    }
+
+    .location-card ion-text {
+        overflow: unset;
+        white-space: nowrap;
+        font-size: 13px;
+        font-weight: 600;
+        color: #A7AFB2;
+    }
+
+    .location-card-title {
+        font-size: 15px;
+        margin-block-end: "100%";
+    }
+
+    .label {
+        text-decoration: underline;
+        font-size: small;
+        padding-top: 185px;
+    }
+
+    .location-label {
+        margin-top: 1px;
+        margin-bottom: 8px;
+    }
+
+}
+
+@media screen and (max-width:510px) {
+    .modal-location {
+        --max-height: 100% !important;
+        --height: 80% !important;
+        --width: 85% !important;
+    }
+
+    .location-search-item ion-button {
+        margin-top: -13px;
+    }
+
+    .location-card ion-text {
+        overflow: unset;
+        white-space: nowrap;
+        font-size: 13px;
+        font-weight: 600;
+        color: #A7AFB2;
+    }
+
+    .location-label {
+        margin-top: 1px;
+        margin-bottom: 5px;
+    }
+
+    .label {
+        text-decoration: underline;
+        font-size: small;
+        padding-top: 160px;
+    }
+
+}
+
+@media screen and (max-width : 375px) {
+    .modal-location {
+        --max-height: 100% !important;
+        --height: 70% !important;
+        --width: 100% !important;
+    }
+
+    .search-btn {
+        margin-top: 20px !important;
+        font-size: 10px !important;
+    }
+
+    .location-search-item input::placeholder {
+        font-size: 12px;
+    }
+
+    .location-card ion-text {
+        overflow: unset;
+        white-space: nowrap;
+        font-size: 13px;
+        font-weight: 600;
+        color: #A7AFB2;
+    }
+}
+
+@media only screen and (device-width : 375px) {
+    .modal-location {
+        --max-height: 100% !important;
+        --height: 80% !important;
+        --width: 85% !important;
+    }
+
+    .search-btn {
+        margin-top: 20px !important;
+        font-size: 10px !important;
+    }
+
+    .location-search-item input::placeholder {
+        font-size: 12px;
+    }
+
+    .location-card ion-text {
+        overflow: unset;
+        white-space: nowrap;
+        font-size: 13px;
+        font-weight: 600;
+        color: #A7AFB2;
+    }
+
+    .location-label {
+        margin-top: 1px;
+        margin-bottom: 5px;
+    }
+
+    .label {
+        text-decoration: underline;
+        font-size: small;
+        padding-top: 160px;
+    }
+}
+
+@media only screen and (device-width : 320px) {
+    .modal-location {
+        --max-height: 100% !important;
+        --height: 82% !important;
+        --width: 85% !important;
+    }
+
+    .search-btn {
+        margin-top: 20px !important;
+        font-size: 10px !important;
+    }
+
+    .location-search-item input::placeholder {
+        font-size: 12px;
+    }
+
+    .location-card ion-text {
+        overflow: unset;
+        white-space: nowrap;
+        font-size: 13px;
+        font-weight: 600;
+        color: #A7AFB2;
+    }
+
+    .location-label {
+        margin-top: 1px;
+        margin-bottom: 8px;
+    }
+
+    .label {
+        text-decoration: underline;
+        font-size: small;
+        padding-top: 170px;
+    }
+}
+
+.ls-module{
+    margin-top: -4px;
+}

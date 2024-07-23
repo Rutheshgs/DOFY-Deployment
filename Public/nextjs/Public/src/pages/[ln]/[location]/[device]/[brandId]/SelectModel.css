@@ -1,0 +1,171 @@
+.ss-text {
+    color: #004E73;
+    text-transform: uppercase;
+}
+
+.ss-image {
+    width: 80%;
+    height: 85%;
+}
+
+.model-card-header {
+    height: 80px;
+}
+
+.sm_card_text {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.sm_card-design {
+    background-color: #fff;
+    border: 1px solid #C3D0DE;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 95%;
+    height: 90px;
+    box-shadow: none;
+    padding: 10px;
+}
+
+.sm_card-design:hover {
+    border: 1px solid #2250B2;
+    color: #2250B2;
+}
+
+.sm_title-design {
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #425367;
+    opacity: 1;
+    font-size: larger;
+}
+
+.dveice {
+    padding-right: 450px;
+    color: #2250B2;
+}
+
+.sm-findDevice-link-ar {
+    color: #2250B2;
+    text-decoration: underline;
+    float: right;
+}
+
+.sm-findDevice-link-en {
+    color: #2250B2;
+    text-decoration: underline;
+    float: left;
+}
+
+.sm_search-bar {
+    --background: #fff;
+    box-shadow: none;
+    border: 1px solid #666;
+    border-radius: 5px;
+    --box-shadow: none;
+    height: 45px;
+}
+
+.justify-content-end {
+    justify-content: end;
+}
+
+@media screen and (max-width: 1024px) {
+    .sm_card-design {
+        font-size: 13px;
+        width: 89%;
+        height: 90px;
+    }
+
+    .sm_card_text {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .sm-findDevice-link {
+        color: #2250B2;
+        text-decoration: underline;
+        margin-bottom: -1px;
+        margin-bottom: -1px;
+        font-size: 16px;
+        float: right;
+    }
+}
+
+.sd_devicesname {
+    background-color: #F2F5FC;
+    border: 1px solid #C3D0DE;
+    color: #425367;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.sd_devicesname ion-icon {
+    color: #adb4bc;
+}
+
+@media (max-width:600px) {
+    .sd_devicesname {
+        font-size: 12px;
+    }
+
+    .sd_devicesname ion-icon {
+        font-size: 15px;
+        color: #adb4bc;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sm_card-design {
+        font-size: 13px;
+        width: 89%;
+        height: 90px;
+    }
+
+    .sm_card_text {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .sm-findDevice-link {
+        color: #2250B2;
+        text-decoration: underline;
+        margin-bottom: -1px;
+        margin-bottom: -1px;
+        font-size: 16px;
+        float: right;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .sm_card-design {
+        font-size: 13px;
+        width: 89%;
+        height: 90px;
+    }
+
+    .sm_card_text {
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .sm-findDevice-link {
+        color: #2250B2;
+        text-decoration: underline;
+        margin-bottom: -3px;
+        margin-bottom: -3px;
+        font-size: 16px;
+        float: right;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .sm_card_text {
+        font-size: 10px;
+        font-weight: 600;
+    }
+}

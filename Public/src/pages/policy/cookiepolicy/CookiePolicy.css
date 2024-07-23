@@ -1,0 +1,45 @@
+.cp-header-row {
+    background-color: var(--dofy-color-dark);
+    height: 150px;
+    color: white;
+}
+
+.cp-padding {
+    padding: 30px 0px 30px 10px;
+}
+
+.cp-header-text {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.cp-row {
+    background-color: white;
+    margin-top: -55px;
+    width: 95%;
+    margin-left: 2.5%
+}
+
+.cp-text {
+    text-align: justify;
+}
+
+.cp-img {
+    height: 80px;
+    width: 100%;
+}
+
+@media screen and (max-width:510px) {
+    .cp-img {
+        height: 70px;
+        width: 100%;
+    }
+}
+
+.cp-col {
+    border: solid 1px gray;
+}
+
+.cp-header-padding {
+    padding: 19px 19px 19px 20px;
+}

@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Facebook",
+        "repositoryURL": "https://github.com/facebook/facebook-ios-sdk",
+        "state": {
+          "branch": null,
+          "revision": "84107793d352dbf698e3df4bf158d0af3633e3df",
+          "version": "14.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

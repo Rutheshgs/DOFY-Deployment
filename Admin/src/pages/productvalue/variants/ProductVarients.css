@@ -1,0 +1,26 @@
+.pv_card{
+    width: 150px;
+}
+
+@media (max-width:510px) {
+    .pv_card{
+        width: 130px;
+    }
+}
+
+@media (min-width:500px) and (max-width:800px) {
+    .pv_card{
+        width: 120px;
+    }
+}
+.pv_cardheader{
+    padding: 10px;
+    margin-bottom: 10px ;
+    text-align: center;
+}
+.pv_card-content{
+    padding-bottom: 9px;
+}
+.pv_badge{
+    border: 1px solid lightgrey;
+}

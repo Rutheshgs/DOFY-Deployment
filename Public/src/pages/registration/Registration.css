@@ -1,0 +1,145 @@
+.registration-text {
+    position: absolute;
+    right: 10%;
+    top: 8%;
+    color: #004E73;
+    z-index: 3;
+}
+
+.rg_signup-text {
+    font-size: xx-large;
+    font-weight: 800;
+    color: #425367;
+}
+
+.rg_subtext {
+    font-size: small;
+    font-weight: 200;
+    color: #425367;
+}
+
+.rp_signup {
+    text-align: left;
+}
+
+.rp_comp-size {
+    text-align: left;
+    padding-bottom: 4px;
+
+
+}
+
+.rp_font-size {
+    text-align: left;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 34px;
+    padding: 0px;
+    color: #444851;
+}
+
+.rp_text-gap {
+    padding-top: 25px;
+    text-align: left;
+}
+
+.rp_outline-style {
+    outline: 1px solid #3333;
+    border-radius: 5px;
+    text-indent: 10px;
+}
+
+.rp_btn-otp {
+    color: #C4C4C4;
+}
+
+.rp_btn-color {
+    background: #2d4fb0;
+    border-radius: 5px;
+}
+
+.rg_padding-adjustment {
+    padding: 2px 100px;
+}
+
+.ls_reg {
+    color: #434343;
+}
+
+.fl_content-style::part(background) {
+    background: #fff;
+
+}
+
+.fl_content-style::part(scroll) {
+    color: #fff;
+    height: 100%;
+}
+
+.reg-grid {
+    background-color: #fff;
+}
+
+
+@media (max-width:768x) {
+    .rg_padding-adjustment {
+        padding: 30px 30px;
+    }
+
+    .rp_btn-otp {
+        padding-top: 0;
+        color: #C4C4C4;
+    }
+
+    .rp_outline-style {
+        outline: 1px solid #3333;
+        border-radius: 5px !important;
+    }
+
+
+}
+
+@media (max-width:600px) {
+    .rg_padding-adjustment {
+        padding: 30px 30px;
+    }
+
+    .rp_btn-otp {
+        padding-top: 0;
+        color: #C4C4C4;
+    }
+
+    .rp_outline-style {
+        outline: 1px solid #3333;
+        border-radius: 5px !important;
+    }
+
+
+}
+
+.rp_login-back {
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+.rp-close-icon {
+    float: right;
+}
+
+.rp_login-close {
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+@media (max-width:768px) {
+    .rp_login-back {
+        font-size: 20px;
+        padding: 10px 10px;
+    }
+
+    .rp_login-close {
+        font-size: 20px;
+        padding: 10px 10px;
+    }
+}

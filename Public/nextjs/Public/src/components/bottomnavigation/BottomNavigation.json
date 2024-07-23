@@ -1,0 +1,22 @@
+{
+    "in_en": {
+        "HOME": "HOME",
+        "ABOUT_US": "ABOUT US",
+        "CONTACT": "CONTACT",
+        "FAQS": "FAQ'S"
+        
+    },
+    "ae_ar": {
+        "HOME": "بيت",
+        "ABOUT_US": "معلومات عنا",
+        "CONTACT": "اتصل ",
+        "FAQS": "التعليمات"
+    },
+    "ae_en": {
+        "HOME": "HOME",
+        "ABOUT_US": "ABOUT US",
+        "CONTACT": "CONTACT",
+        "FAQS": "FAQ'S"
+
+    }
+}

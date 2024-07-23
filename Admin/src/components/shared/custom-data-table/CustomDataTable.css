@@ -1,0 +1,111 @@
+.rdt_Table {
+    border: 1px solid #8eb2f1;
+}
+
+.overflow-hidden{
+    overflow: unset !important;
+}
+
+.rdt_TableHeadRow,
+.rdt_TableCol {
+    background: #6A95F9;
+    color: white;
+    font-weight: bold;
+}
+
+@media (max-width:510px) {
+    .eUeqdG {
+        overflow: unset !important;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .jzGaAN {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+}
+
+.rdt_TableRow,
+.rdt_TableCell {
+    border-bottom-color: #8eb2f1 !important;
+    /* padding-left: unset !important; 
+    padding-right: unset !important;
+    border-bottom: unset !important;
+    border-bottom-color: #8eb2f1 !important; */
+}
+
+.rdt_TableRow:hover {
+    background: #f9f9f9;
+}
+
+.modal-filter {
+    --max-height: 58% !important;
+    --width: 55% !important;
+}
+
+@media (min-width:520px) and (max-width: 768px) {
+    .modal-filter {
+        --max-height: 40% !important;
+    }
+}
+
+@media (max-width: 510px) {
+    .modal-filter {
+        --max-height: 50% !important;
+        --width: 100% !important;
+    }
+}
+
+.custom-pagination {
+    --padding-start: 0px !important;
+    --inner-padding-end: 0px !important;
+}
+
+.custom-pagination ion-text {
+    font-size: 12px !important;
+    color: rgb(120, 119, 119) !important;
+    white-space: nowrap !important;
+    margin-inline-start: 25px !important;
+}
+
+.custom-pagination ion-button {
+    margin-inline-start: 0px !important;
+    --box-shadow: unset !important;
+    --background: unset !important;
+    --color: unset !important;
+}
+
+.filter-by-col ion-badge ion-icon {
+    position: absolute !important;
+    right: 1%;
+}
+
+.filter-by-col ion-badge {
+    margin-right: 5px;
+}
+
+@media (max-width: 410px) {
+    .custom-pagination {
+        --padding-start: -1px !important;
+        --inner-padding-end: 1px !important;
+
+    }
+
+    .custom-pagination ion-text {
+        font-size: 11px !important;
+        color: rgb(120, 119, 119) !important;
+        white-space: nowrap !important;
+        margin-inline-start: 5px !important;
+        margin-inline-end: 2px !important;
+        padding-inline-end: 8px !important;
+    }
+
+    .custom-pagination ion-button {
+        font-size: 10px !important;
+        margin-inline-start: -10px !important;
+        --box-shadow: unset !important;
+        --background: unset !important;
+        --color: unset !important;
+    }
+}

@@ -1,0 +1,42 @@
+.Au_Title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.Au-msg {
+    font-family: 'Mitr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.Au-update-btn {
+    background: var(--dofy-color-primary-new);
+    border-radius: 25px;
+    --border-radius: 25px !important;
+}
+
+.Au-cancel {
+    font-family: 'Mitr';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #C4C4C4;
+}
+.Ap_image_style{
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+}
+@media (min-width:600px) and (max-width:768px){
+    .Ap_image_style{
+        width: 50%;
+        margin: 0px auto;
+    }
+}

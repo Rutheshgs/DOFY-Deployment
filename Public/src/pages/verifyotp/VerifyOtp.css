@@ -1,0 +1,61 @@
+.u {
+    text-decoration: underline;
+}
+
+.fp_account-end {
+    text-align: center;
+}
+
+
+.otp_outline-style {
+    outline: 1px solid #3333;
+    border-radius: 5px;
+}
+
+.fp_clr-sign {
+    color: blue;
+}
+
+.fp_btn-clr {
+    background: #2d4fb0;
+    border-radius: 5px;
+}
+
+.fp_font-size {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    padding: 0px;
+    color: #444851;
+}
+
+.fp_text-gap {
+    padding-top: 25px;
+    text-align: left;
+}
+
+.fp_btn-otp {
+    padding-top: 25px;
+    color: #C4C4C4;
+}
+
+.fp_btn-color {
+    background: #2d4fb0;
+    border-radius: 5px;
+}
+
+.fp_comp-size {
+    text-align: left;
+    padding: 10px 20px 50px 20px;
+}
+
+.fp_text {
+    padding: 20px;
+    padding: 0px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: left;
+}

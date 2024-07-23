@@ -1,0 +1,240 @@
+.vw-header-texts {
+    color: #004E73;
+    text-transform: uppercase;
+}
+
+.vw-header-row {
+    background-color: var(--dofy-color-dark);
+    height: 150px;
+    color: white;
+    padding: 10px 5px 0px 5px;
+    border-bottom: 1px solid rgb(226, 219, 219);
+}
+
+.vw-header-rows {
+    padding: 10px 5px 0px 5px;
+    border-bottom: 1px solid rgb(226, 219, 219);
+}
+
+.vw-padding {
+    padding: 30px 0px 30px 10px;
+}
+
+.vw-header-text {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.vw-row {
+    background-color: white;
+    margin-top: -55px;
+    width: 95%;
+    margin-left: 2.5%
+}
+
+.vw-text {
+    font-size: 15px;
+    font-weight: 600;
+    color: #004E73;
+}
+
+.vw-texts {
+    font-weight: 600;
+}
+
+.vw-header {
+    font-size: 17px;
+    font-weight: 600;
+    color: #004E73;
+}
+
+.vw-icon-size {
+    color: #004E73;
+    font-size: 28px;
+}
+
+.vw-icon-dot {
+    font-size: 10px;
+    padding-top: 11px;
+}
+
+.vw-icon {
+    color: blue;
+    font-size: 15px;
+}
+
+.vw-icons {
+    color: blue;
+}
+
+.vw-checkbox-text {
+    font-size: 14px;
+    margin-top: 0;
+}
+
+.vw-checkbox-align {
+    margin-left: 0;
+}
+
+.vw-color {
+    background-color: #f0f0f0;
+}
+
+.view-orders-grid ion-segment-button {
+    font-size: 13px !important;
+    --padding-top: 0 !important;
+    --padding-end: 0 !important;
+    --padding-bottom: 0 !important;
+    --padding-start: 0 !important;
+    min-width: unset !important;
+}
+
+ion-icon:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width:510px) {
+    .vw-searchbar input {
+        width: 100% !important;
+    }
+}
+
+.referral-card {
+    position: absolute;
+    padding: 10px;
+    width: 230px !important;
+    top: -30%;
+    right: 20% !important;
+    background-color: #004E73;
+    z-index: 1 !important;
+}
+
+.referral-card ion-item {
+    --background: #004E73 !important;
+    --min-height: 30px !important;
+}
+
+.rdt_TableBody div {
+    padding: 0 !important;
+}
+
+.referral-card ion-text {
+    text-transform: capitalize !important;
+    color: rgb(245, 243, 243);
+    font-size: 12px !important;
+}
+
+
+.vo-card-height {
+    height: 100%;
+}
+
+.vo-orders-card {
+    background: white;
+    box-shadow: unset;
+    border: 1px solid #C3D0DE;
+}
+
+.vo-orders-card ion-text {
+    color: var(--dofy-color-primary-new);
+    font-weight: 600;
+}
+
+.vo-orders-card-inline {
+    background: #f2f5fc;
+    padding: 0px;
+    box-shadow: unset;
+}
+
+.vo-orders-card-inline ion-text {
+    color: #425367;
+}
+
+.vo-orders-card-inline-details ion-text {
+    color: #425367;
+    margin-left: 10px;
+}
+
+.vo-orders-card-inline-cost ion-label {
+    color: var(--dofy-color-primary-new);
+}
+
+.vo-orders-card-inline-cost ion-text {
+    color: #425367;
+    float: right;
+    font-size: 18px;
+}
+
+.vo-orders-card-inline-card {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.vo-orders-card-inline-adjustment {
+    margin-left: -20px;
+    align-self: center;
+}
+
+.vo-orders-card-inline-adjustment ion-label {
+    white-space: nowrap;
+}
+
+.vo-orders-card-inline-card-0 {
+    margin-left: 0px;
+}
+
+.vo-orders-card-inline-details {
+    margin-top: -10px;
+    background: #f2f5fc;
+    box-shadow: unset;
+    padding: 10px;
+}
+
+.vo-orders-card-inline-cost {
+    box-shadow: unset;
+    padding: 10px;
+    background-color: white;
+    border: 0.5px solid var(--dofy-color-primary-new);
+}
+
+.vo_padding-adjustment {
+    padding: 30px 150px;
+    background-color: #fff;
+}
+
+.btn-vieworder{
+    background-color: #2250b2;
+}
+/* 
+.btn-vieworder-col {
+    position: absolute;
+    bottom: -10px;
+    width: 100%;
+} */
+
+.vo-choose-col {
+    border-radius: 10px;
+    background: #f2f5fc;
+    color: var(--dofy-color-primary-new);
+    font-weight: 600;
+    padding: 10px;
+}
+
+.vw-searchbar {
+    --background: #fff;
+    padding-top: unset;
+}
+
+@media (max-width:768px) {
+    .vo_padding-adjustment {
+        padding: 20px 10px;
+    }
+
+    .vo_title-style {
+        padding: 10px;
+        text-align: center;
+    }
+}

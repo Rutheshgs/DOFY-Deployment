@@ -1,0 +1,302 @@
+.tds-grid ion-button {
+    color: #004E73;
+    background-color: #ffcc4e;
+}
+
+.tds-header-row {
+    padding: 10px 5px 0px 5px;
+    border-bottom: 1px solid rgb(226, 219, 219);
+}
+
+.tds-header-text {
+    color: black;
+    font-size: large;
+}
+
+.tds-product-row-header {
+    margin-bottom: 20px;
+}
+
+.tds-product-row-header ion-text {
+    color: #004E73;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.tds-product-row-body-text {
+    font-size: 13px !important;
+    text-transform: none !important;
+    color: unset !important;
+    font-weight: 100 !important;
+}
+
+.tds-text {
+    font-size: 20px;
+    color: #004E73;
+}
+
+.tds-devices-btn-pre {
+    color: #004E73;
+    border: 1px solid #ffcc4e;
+}
+
+.tds-select-date {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: #004E73;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tds-select-date ion-text {
+    color: #ffcc4e;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.tds-slot-check {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+    --color-checked: #ffcc4e !important;
+    --border-width: none !important;
+}
+
+.tds-slot-check::part(container) {
+    border-width: 5px !important;
+}
+
+.tds-grid ion-segment-button {
+    background-color: #004E73 !important;
+    color: #ffcc4e;
+}
+
+.tds-grid .segment-button-checked {
+    background-color: #ffcc4e !important;
+    color: #004E73;
+    --indicator-color: unset !important
+}
+
+@media screen and (min-width:1440px) {
+    .tds-select-date {
+        height: 80px;
+        width: 80px;
+    }
+
+    .tds-slot-check {
+        width: 80px;
+        height: 80px;
+    }
+
+    .tds-device-img {
+        width: 40px;
+        margin-left: 40px;
+    }
+
+    .tds-device-img-ar {
+        width: 40px;
+        margin-right: 30px;
+    }
+
+    .tds-combine {
+        padding-right: 0px;
+    }
+
+    .tds-combine-ar {
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .tds-select-date {
+        height: 80px;
+        width: 80px;
+    }
+
+    .tds-slot-check {
+        width: 80px;
+        height: 80px;
+    }
+
+    .tds-device-img {
+        width: 40px;
+        margin-left: 20px;
+    }
+
+    .tds-device-img-ar {
+        width: 40px;
+        margin-right: 30px;
+    }
+
+    .tds-combine {
+        padding-right: 20px;
+    }
+
+    .tds-combine-ar {
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .tds-select-date {
+        height: 80px;
+        width: 80px;
+    }
+
+    .tds-slot-check {
+        width: 80px;
+        height: 80px;
+    }
+
+    .tds-device-img {
+        width: 20px;
+        margin-left: 20px;
+    }
+
+    .tds-device-img-ar {
+        width: 40px;
+        margin-right: 30px;
+    }
+
+    .tds-combine {
+        padding-right: 20px;
+    }
+
+    .tds-combine-ar {
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .tds-select-date {
+        height: 80px;
+        width: 80px;
+    }
+
+    .tds-slot-check {
+        width: 80px;
+        height: 80px;
+    }
+
+    .tds-device-img {
+        width: 40px;
+        margin-left: 5px;
+    }
+
+    .tds-device-img-ar {
+        width: 40px;
+        margin-right: 30px;
+    }
+
+    .tds-combine {
+        padding-right: 20px;
+    }
+
+    .tds-combine-ar {
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .tds-select-date {
+        height: 80px;
+        width: 80px;
+    }
+
+    .tds-slot-check {
+        width: 80px;
+        height: 80px;
+    }
+
+    .tds-device-img {
+        width: 40px;
+        margin-left: 5px;
+    }
+
+    .tds-device-img-ar {
+        width: 40px;
+        margin-right: 30px;
+    }
+
+    .tds-combine {
+        padding-right: 20px;
+    }
+
+    .tds-combine-ar {
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .tds-select-date {
+        height: 80px;
+        width: 80px;
+    }
+
+    .tds-slot-check {
+        width: 80px;
+        height: 80px;
+    }
+
+    .os-device-img {
+        width: 40px;
+        margin-left: 5px;
+    }
+
+    .tds-device-img-ar {
+        width: 40px;
+        margin-right: 30px;
+    }
+
+    .tds-combine {
+        padding-right: 20px;
+    }
+
+    .tds-combine-ar {
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .tds-select-date {
+        height: 80px;
+        width: 80px;
+    }
+
+    .tds-slot-check {
+        width: 80px;
+        height: 80px;
+    }
+
+    .tds-device-img {
+        width: 40px;
+        margin-left: 5px;
+    }
+
+    .tds-device-img-ar {
+        width: 40px;
+        margin-right: 30px;
+    }
+
+    .tds-combine {
+        padding-right: 20px;
+
+    }
+
+    .tds-combine-ar {
+        padding-left: 20px;
+    }
+}
+
+.express-pickup {
+    padding-top: 5px !important;
+}
+
+.express-pickup ion-text {
+    font-weight: bold;
+    /* font-size: 10px !important; */
+}

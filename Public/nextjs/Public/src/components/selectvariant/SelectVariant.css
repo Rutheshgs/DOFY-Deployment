@@ -1,0 +1,142 @@
+
+.sv-grid {
+    background-color: white;
+}
+
+.sv-footer-text {
+    font-size: medium;
+    color: #004E73;
+    text-transform: uppercase;
+}
+
+.sell-devices-header-variant {
+    font-weight: 700;
+    color: #004E73;
+}
+
+.sv-heart {
+    position: absolute;
+    left: -100vw;
+    color: #aab8c2;
+
+}
+
+.sv-heart:checked .wl-heart-label {
+    color: #e2264d;
+
+}
+
+.sv-icon {
+    color: #e2264d;
+}
+
+.sv-checked {
+    padding: unset;
+    top: -20px;
+    right: -25px;
+    position: absolute;
+}
+
+.sv_title-design {
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #425367;
+    opacity: 1;
+    font-size: large;
+}
+
+.sv_card-design {
+    background: #fff;
+    border: 1px solid #C3D0DE;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: none;
+}
+
+.sv_text_design {
+    font-size: 15px;
+}
+
+.sv_card-design:hover {
+    border: 1px solid #0050c2;
+}
+
+@media screen and (max-width:1440px) {
+    .sv_card-design {
+        background: #fff;
+        border: 1px solid #C3D0DE;
+        border-radius: 5px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 25px;
+        box-shadow: none;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .sv_card-design {
+        background: #fff;
+        border: 1px solid #C3D0DE;
+        border-radius: 5px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        box-shadow: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .sv_card-design {
+        background: #fff;
+        border: 1px solid #C3D0DE;
+        border-radius: 5px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        box-shadow: none;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .sv_card-design {
+        background: #fff;
+        border: 1px solid #C3D0DE;
+        border-radius: 5px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 25px;
+        box-shadow: none;
+    }
+    .sv_chipfontsize{
+        /* font-size: small !important; */
+        font-size: 11px;
+    }
+}
+.sd_devicesname {
+    background-color: #F2F5FC;
+    border: 1px solid #C3D0DE;
+    color: #425367;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.sd_devicesname ion-icon {
+    color: #adb4bc;
+}
+
+@media (max-width:600px) {
+    .sd_devicesname {
+        font-size: 12px;
+    }
+
+    .sd_devicesname ion-icon {
+        font-size: 15px;
+        color: #adb4bc;
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "in_en": {
+        "Choose": "Select a pickup address from your address list",
+        "Search": "Search address",
+        "Add": "Add new Address",
+        "Are_You_Sure_To_Delete":"Are you sure you want to delete this address?",
+        "Add_New_Address":"Add New Address",
+        "No_Address_found":"No Address found",
+        "Previous":"Previous",
+        "Back": "Back"
+    },
+    "ae_ar": {
+        "Choose": "Select a pickup address from your address list",
+        "Search": "عنوان البحث",
+        "Add": "أضف عنوان جديد",
+        "Are_You_Sure_To_Delete":"نافذة التأكيد المنبثقة ، هل أنت متأكد أنك تريد حذف هذا العنوان",
+        "Add_New_Address":"أضف عنوان جديد",
+        "No_Address_found":"لا توجد سجلات",
+        "Previous":"سابق",
+        "Back": "خلف"
+    },
+    "ae_en": {
+        "Choose": "Select a pickup address from your address list",
+        "Search": "Search address",
+        "Add": "Add new Address",
+        "Are_You_Sure_To_Delete":"Are you sure you want to delete this address?",
+        "Add_New_Address":"Add New Address",
+        "No_Address_found":"No Address found",
+        "Previous":"Previous",
+        "Back": "Back"
+    }
+}

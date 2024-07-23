@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>DOFY - DO FOR YOU - Admin Panel</title>
+
+  <base href="/" />
+
+  <meta name="viewport"
+    content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="msapplication-tap-highlight" content="no" />
+
+  <!-- add to homescreen for ios -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="Ionic App" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <link rel="app-ads" href="%PUBLIC_URL%/app-ads.txt" />
+  <link rel="robots" href="%PUBLIC_URL%/robots.txt" />
+
+  <link rel="shortcut icon" type="image/png" href="%PUBLIC_URL%/image/favicon.png" />
+
+  <!-- add to homescreen for ios -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="Ionic App" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background: #000;
+    }
+
+    .middle {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      position: absolute;
+    }
+
+    .bar {
+      width: 10px;
+      height: 70px;
+      background: transparent;
+      display: inline-block;
+      transform-origin: bottom center;
+      border-top-right-radius: 20px;
+      border-top-left-radius: 20px;
+      /*   box-shadow:5px 10px 20px inset rgba(255,23,25.2); */
+      animation: loader 1.2s linear infinite;
+    }
+
+    .bar1 {
+      animation-delay: 0.1s;
+    }
+
+    .bar2 {
+      animation-delay: 0.2s;
+    }
+
+    .bar3 {
+      animation-delay: 0.3s;
+    }
+
+    .bar4 {
+      animation-delay: 0.4s;
+    }
+
+    .bar5 {
+      animation-delay: 0.5s;
+    }
+
+    .bar6 {
+      animation-delay: 0.6s;
+    }
+
+    .bar7 {
+      animation-delay: 0.7s;
+    }
+
+    .bar8 {
+      animation-delay: 0.8s;
+    }
+
+    @keyframes loader {
+      0% {
+        transform: scaleY(0.1);
+        background: unset;
+      }
+
+      50% {
+        transform: scaleY(1);
+        background: #1E4496;
+      }
+
+      100% {
+        transform: scaleY(0.1);
+        background: transparent;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/signature_pad@4.0.0/dist/signature_pad.umd.min.js"></script>
+  <div id="root">
+    <div class="middle">
+      <div class="bar bar1"></div>
+      <div class="bar bar2"></div>
+      <div class="bar bar3"></div>
+      <div class="bar bar4"></div>
+      <div class="bar bar5"></div>
+      <div class="bar bar6"></div>
+      <div class="bar bar7"></div>
+      <div class="bar bar8"></div>
+    </div>
+  </div>
+</body>
+
+</html>

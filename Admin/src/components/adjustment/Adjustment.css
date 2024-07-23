@@ -1,0 +1,57 @@
+.aj_title {
+    font-size: larger;
+    font-weight: 500;
+}
+
+.Adjustment-field-curruceny::before {
+    content: "₹";
+    position: absolute;
+    right: 10%;
+}
+
+.Adjustment-field-curruceny-ae::before {
+    content: "AED";
+    position: absolute;
+    right: 10%;
+}
+
+@media (max-width:1024px) {
+    .Adjustment-field-curruceny::before {
+        right: 15%;
+    }
+}
+
+@media (max-width:768px) {
+    .Adjustment-field-curruceny::before {
+        right: 20%;
+    }
+
+    .Adjustment-field-curruceny-ae::before {
+        right: 20%;
+    }
+}
+
+@media (max-width:500px) {
+    .Adjustment-field {
+        --padding-end: -25px;
+        margin-left: -50px;
+    }
+
+    .Adjustment-field-curruceny::before {
+        right: 50%;
+    }
+
+    .Adjustment-field-curruceny-ae::before {
+        right: 50%;
+    }
+}
+
+@media (max-width:320px) {
+    .Adjustment-field-curruceny::before {
+        right: 60%;
+    }
+
+    .Adjustment-field-curruceny-ae::before {
+        right: 60%;
+    }
+}

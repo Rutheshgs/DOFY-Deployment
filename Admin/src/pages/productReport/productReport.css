@@ -1,0 +1,41 @@
+.pr_card-width {
+  width: 50%;
+  margin: 0px auto;
+  top: 25%;
+}
+
+@media (max-width:520px) {
+.pr_card-width {
+    width: 80%;
+    }
+}
+
+@media (max-width:768px) and (min-width:530px) {
+    .pr_card-width {
+        width: 75%;
+        margin: 0px auto;
+        top: 20%;
+    }
+}
+
+.sa-pattern-bg {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.pr_product {
+    font-weight: bold;
+    font-size: 16px;
+    color: aliceblue;
+    margin-left: 10px;
+}
+
+.pr_background-img {
+    --background: url(../../assets/images/professionalbg.jpg) 0 0/100% 100% no-repeat;
+}
+
+.pr_dropdown_width {
+    --width: 450px;
+    margin-left: -120px;
+    margin-top: 10px;
+}

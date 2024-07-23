@@ -1,0 +1,98 @@
+/* .tu-grid {
+    margin-top: 60px;
+} */
+@media screen and (max-width:425px) {
+    /* .tu-grid {
+        margin-top: 50px;
+    } */
+}
+.tu-grid{
+    padding: 0px 150px;
+}
+
+.tu-header-row {
+    background-color: var(--dofy-color-dark);
+    height: 150px;
+    color: white;
+}
+
+.tu-padding {
+    padding: 30px 0px 30px 10px;
+}
+
+.tu-header-text {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.tu-row {
+    background-color: white;
+    margin-top: -55px;
+    width: 95%;
+    margin-left: 2.5%
+}
+
+.tu-text {
+    text-align: justify;
+    --background: #fff !important;
+
+}
+
+.sc-ion-label-md-h {
+    text-overflow: unset !important;
+    white-space: unset !important;
+}
+
+.tu-img {
+    height: 80px;
+    width: 100%;
+}
+
+@media screen and (max-width:510px) {
+    .tu-img {
+        height: 70px;
+        width: 100%;
+    }
+    .tu-grid{
+        padding: 0px;
+    }
+}
+
+.tu-grid ion-item ion-label {
+    white-space: pre-line !important;
+}
+
+.tu-grid .sub-points {
+    /* margin-left: 30px; */
+    margin-top: -15px;
+    --background: #fff;
+}
+
+.sub-points {
+    --background: #fff;
+}
+
+.tu-grid .tu-list {
+    --background: #fff !important;
+    background: #fff !important;
+}
+
+.tu-list {
+    background: #fff;
+}
+
+
+/* new line */
+
+.tc_title-style {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    color: #444851;
+}
+
+@media (max-width:768px){
+    .tu-grid{
+        padding: 0px !important;
+    }
+}

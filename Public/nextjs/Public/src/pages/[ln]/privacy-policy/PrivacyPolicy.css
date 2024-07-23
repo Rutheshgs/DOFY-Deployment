@@ -1,0 +1,58 @@
+.pp-header-row {
+    background-color: var(--dofy-color-dark);
+    height: 150px;
+    color: white;
+}
+
+.pp-padding {
+    padding: 30px 0px 30px 10px;
+}
+
+.pp-header-text {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.pp-row {
+    background-color: white;
+    margin-top: -55px;
+    width: 95%;
+    margin-left: 2.5%
+}
+
+.pp-text {
+    text-align: justify;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1050px;
+    padding: 8px;
+    --background: #fff;
+}
+
+.pp-img {
+    height: 80px;
+    width: 100%;
+}
+
+.sc-ion-label-md-h {
+    text-overflow: unset !important;
+    white-space: unset !important;
+}
+
+@media screen and (max-width:510px) {
+    .pp-img {
+        height: 70px;
+        width: 100%;
+    }
+}
+
+.pp-grid ion-item ion-label {
+    white-space: pre-line !important;
+}
+
+.pp_title-style {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    color: #444851
+}

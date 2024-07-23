@@ -1,0 +1,786 @@
+.sd-grid {
+    --background: #fff !important;
+}
+
+@media screen and (max-width:510px) {}
+
+.sd-header-row {
+    /* background: #526da6 url(../../assets/images/home/selldevices.png); */
+    background-size: cover;
+    color: white;
+    padding: 30px 0px 30px 10px;
+    height: 150px;
+}
+
+.sd-header-text {
+    font-size: 24px;
+    font-weight: 600;
+    --padding-inline: unset !important;
+}
+
+
+.questionaire-checkbox {
+    margin-left: 10px;
+}
+
+.fc-card-text {
+    color: black;
+    font-weight: 600;
+}
+
+.sell-devices-btn-continue {
+    background-color: var(--dofy-color-primary-new) !important;
+    color: var(--dofy-color-secondary-bg-new);
+    border-radius: 5px;
+    width: 130px;
+}
+
+.sell-devices-btn-back {
+    color: var(--dofy-color-primary-new);
+    border: 0.5px solid var(--dofy-color-primary-new);
+    border-radius: 5px;
+}
+
+.sell-devices-btn-pre {
+    color: #004E73;
+    border: 1px solid #ffcc4e;
+}
+
+.sell-devices-text {
+    color: #004E73;
+    text-transform: uppercase;
+}
+
+.sell-devices-card {
+    height: 100%;
+    width: 100%;
+}
+
+.sell-devices-header-row {
+    background-color: white;
+    padding: 10px 5px 0px 5px;
+}
+
+.sell-devices-header-text {
+    color: #004E73;
+    text-transform: uppercase;
+}
+
+/* physical condition */
+
+.questionnaire-parent {
+    border-radius: 10px;
+}
+
+.pc-err-card {
+    text-align: center;
+}
+
+.pv_questionnaire_name-err {
+    font-size: small;
+    font-weight: 600;
+    color: #ffff;
+    vertical-align: bottom;
+}
+
+.pc-card {
+    height: 90%;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #C3D0DE;
+    box-shadow: none;
+    cursor: pointer;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.pc-img {
+    height: 45px !important;
+}
+
+.card-selected-red {
+    border: 1px solid #FC3C3C;
+}
+
+.card-selected-theme {
+    border: 1px solid var(--dofy-color-primary-new);
+}
+
+.pc-card-selected {
+    border: 1px double lightgray;
+}
+
+.pc-card-selected:hover {
+    border: 1px double lightgray;
+}
+
+.pc-card-selected .pc-img,
+.pc-card-selected .pc-card-content {
+    opacity: 0.5;
+}
+
+.pc-label {
+    font-size: 13px;
+    color: #17171d;
+    text-align: justify;
+}
+
+.pc-card-content {
+    text-align: center;
+    background-color: #f5f5f5;
+    height: 50px;
+}
+
+.pc-card-header {
+    background-color: #fff;
+    height: 150px;
+}
+
+.pc-checkmark-icon {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    z-index: 1;
+    font-size: 22px;
+    color: orange;
+}
+
+.pc-checkmark-icon-hidden {
+    display: none !important;
+}
+
+.pc-checkmark-icon-show {
+    display: block !important;
+}
+
+/* ------------------------- */
+/* device info */
+
+.dd-devicename {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #004E73;
+}
+
+.dd-devicevarient {
+    padding: 10px;
+    font-weight: 700;
+}
+
+.dd-title {
+    color: #004E73;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.device-summary {
+    margin-top: 21px;
+}
+
+/* ---------------------------------- */
+
+.ion-radio:hover {
+    background: none;
+}
+
+.sd-summary-list-header {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.sd-summary-list-text {
+    font-size: 14px;
+}
+
+.sd-summary-list-icon {
+    color: red;
+    padding-right: 5px;
+    padding-top: 0px;
+}
+
+.final-price {
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    color: green;
+    margin-left: -30px;
+    top: 65px;
+}
+
+.final-price-button {
+    position: absolute;
+    margin-left: -30px;
+    top: 170px;
+}
+
+@media screen and (max-width:1024px) {
+    .final-price {
+        position: absolute;
+        margin-left: -30px;
+        top: 65px;
+    }
+    .card-selected-red {
+        border: 1px solid #FC3C3C;
+    }
+    .card-selected-theme {
+        border: 1px solid var(--dofy-color-primary-new);
+    }
+
+}
+
+/* Questionnaire check */
+.question-grid .pc-slot-check {
+    --border-width: none !important;
+    --border-style: none !important;
+    --border-color: none !important;
+    --checkmark-width: 3 !important;
+    --background: transparent !important;
+    --size: 18px !important;
+    width: 89% !important;
+    height: 87% !important;
+    margin-left: 10px;
+    margin-top: 11px;
+    position: absolute !important;
+    --background-checked: none !important;
+    --border-color-checked: none !important;
+    --checkmark-color: none !important;
+}
+
+.pc-slot-check:hover {
+    border: 1px double #ffcc4e;
+}
+
+.accordion-button:not(.collapsed) {
+    color: unset !important;
+    background-color: unset !important;
+}
+
+.btn-yes-no {
+    text-transform: uppercase;
+}
+
+.btn-yes-no-active {
+    background-color: var(--dofy-color-primary-new);
+    color: var(--dofy-color-secondary-bg-new);
+    border-radius: 5px;
+}
+
+.question-segment {
+    position: absolute;
+    top: 7px;
+    margin-left: 20px;
+    color: #004E73;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.question-seg-index {
+    position: absolute;
+    line-height: 7px;
+    border-radius: 50%;
+    left: 10px;
+    top: 7px;
+    padding: 5px;
+}
+
+.question-seg-arrow {
+    position: absolute;
+    margin-top: 10px;
+    top: -3px;
+    right: -10px;
+}
+
+.err-yesno-border {
+    border: 2px solid rgb(241, 73, 73);
+}
+
+.question-yes-no {
+    margin-top: -10px;
+    padding: 0;
+}
+
+@media screen and (max-width:768px) {
+    .yes-no-items {
+        --padding-start: 2px !important;
+        --inner-padding-end: 0px !important;
+    }
+
+    .pc-card {
+        height: 85%;
+        border-radius: 10px;
+        background-color: #FFFFFF;
+        border: 1px solid #C3D0DE;
+        box-shadow: none;
+        cursor: pointer;
+        text-align: center;
+        padding: 18px 8px;
+    }
+
+    .pc-card-selected {
+        border: 1px double lightgray;
+    }
+
+    .pc-card-selected:hover {
+        border: 1px double lightgray;
+    }
+
+    .pc-card-selected .pc-img,
+    .pc-card-selected .pc-card-content {
+        opacity: 0.5;
+    }
+    .card-selected-red {
+        border: 1px solid #FC3C3C;
+    }
+    .card-selected-theme {
+        border: 1px solid var(--dofy-color-primary-new);
+    }
+    .pv_questionnaire_name {
+        font-size: 9px;
+        font-weight: 600;
+        text-align: center;
+        padding-top: 2px;
+    }
+
+}
+
+.err-yesno-border-none {
+    border: none !important;
+}
+
+.err-yesno-text {
+    color: rgb(241, 73, 73);
+}
+
+.err-yesno-text-show {
+    display: block !important;
+    text-align: start;
+}
+
+.err-yesno-text-hide {
+    display: none !important;
+}
+
+.db-card {
+    width: 99%;
+    height: 45px;
+    border: unset;
+    padding: unset;
+    margin: 1px;
+    cursor: pointer;
+}
+
+.db-card-0 {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.db-card-nth {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.db-card-active {
+    background: #c6cbd5;
+}
+
+.db-card-active::after {
+    content: '';
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top: 25px solid #6A0136;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
+
+ion-slides {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: rgb(30 68 150 / 20%) 0px 3px 1px -2px, rgb(30 68 150 / 14%) 0px 2px 2px 0px, rgb(30 68 150 / 12%) 0px 1px 5px 0px;
+    height: 100%;
+}
+
+.swiper-slide {
+    display: block;
+}
+
+.questionaire-text {
+    font-weight: unset;
+    font-size: 14px !important;
+}
+
+.questionaire-title {
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--dofy-color-secondary-new);
+}
+
+.pv_questionnaire_name {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--dofy-color-secondary-new);
+}
+
+.questions {
+    height: 100%;
+}
+
+z.p-10 {
+    padding: 10px;
+}
+
+.p-5 {
+    padding: 5px !important;
+}
+
+.img-fluid {
+    height: 250px;
+    width: auto;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.pt-0 {
+    margin-top: 0px;
+}
+
+.mt-0 {
+    margin-top: 0px;
+}
+
+.questionaire-question {
+    font-size: 18px;
+    color: var(--dofy-color-secondary-new);
+}
+
+.questionaire-sub-question {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--dofy-color-secondary-new);
+}
+
+.questionaire-option {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--dofy-color-secondary-new);
+
+}
+
+.quesion-yes-no {
+    margin-top: -25px;
+}
+
+.question-sub-heading {
+    font-size: 12px;
+    color: #606264;
+    z-index: 2;
+    margin-top: -10px;
+}
+
+.err-question {
+    animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+.mobile-btn-yes-no-card {
+    border-radius: 5px;
+    background: #f8fafa;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    height: 50px;
+    margin: 5px 0px 20px 0px;
+}
+
+.mobile-btn-yes-no-card-inline {
+    padding: 4px 5px 0px 5px;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.mobile-btn-yes-no-card-inline ion-icon {
+    font-size: 22px;
+}
+
+.mobile-btn-yes-no-card-inline-text {
+    color: #757779;
+    font-size: 14px;
+}
+
+.mobile-btn-yes-no-card-active .mobile-btn-yes-no-card-inline {
+    background: var(--dofy-color-primary-new);
+}
+
+.mobile-btn-yes-no-card-active .mobile-btn-yes-no-card-inline ion-icon {
+    color: white;
+}
+
+.mobile-btn-yes-no-card-active .mobile-btn-yes-no-card-inline {
+    color: var(--dofy-color-primary-new) !important;
+}
+
+.mobile-btn-yes-no-card-active .mobile-btn-yes-no-card-inline-red {
+    background: #eb445a !important;
+}
+
+.mobile-btn-yes-no-card-active .mobile-btn-yes-no-card-inline-text-red {
+    color: var(--dofy-color-primary-new) !important;
+}
+
+
+
+.xl-mb-25 {
+    margin-bottom: 25px;
+}
+
+.custom-ion-item-question {
+    --padding-start: 0px;
+    --padding-end: 0px;
+    --inner-padding-end: 0px;
+    left: 0 !important;
+    width: 100%;
+    --min-height: unset !important;
+}
+
+@keyframes shake {
+
+    10%,
+    90% {
+        transform: translate3d(-3px, 0, 0);
+    }
+
+    20%,
+    80% {
+        transform: translate3d(4px, 0, 0);
+    }
+
+    30%,
+    50%,
+    70% {
+        transform: translate3d(-6px, 0, 0);
+    }
+
+    40%,
+    60% {
+        transform: translate3d(6px, 0, 0);
+    }
+}
+
+.question-popup {
+    --border-radius: 10px;
+    --max-height: 60% !important;
+}
+
+.location-items-question {
+    border-radius: 5px;
+}
+
+.information-modal {
+    --border-radius: 20px;
+}
+
+.information-card {
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: unset;
+}
+
+.information-card ion-card-title {
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.information-row {
+    padding-top: 25px;
+}
+
+.information-card ion-img {
+    height: 90%;
+    padding-bottom: 50px;
+}
+
+.information-modal-close {
+    z-index: 2;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:510px) {
+    .information-row {
+        padding-top: 0px;
+    }
+
+    .information-modal {
+        --height: unset;
+        --width: 90%
+    }
+
+    .sd-grid {
+        margin-top: -20px;
+    }
+
+    .question-grid {
+        padding: 0;
+    }
+
+    .question-grid-screening {
+        margin-top: -10px;
+    }
+
+    .questionnaire-parent {
+        padding: 0;
+    }
+
+    .xl-mb-25 {
+        margin-bottom: 0px;
+    }
+
+    .question-sub-heading {
+        font-size: 10px;
+        z-index: 2;
+        margin: 0;
+    }
+
+    .questionaire-question {
+        font-size: 16px;
+        color: var(--dofy-color-secondary-new);
+    }
+
+    .questionaire-sub-question {
+        font-weight: 700;
+        font-size: 16px;
+        color: var(--dofy-color-secondary-new);
+    }
+
+    .pc-card {
+        height: 110px;
+        width: 100%;
+        text-align: center;
+        vertical-align: middle;
+        margin: 5px 0px;
+    }
+
+    .pc-card-selected {
+        border: 1px double lightgray;
+    }
+
+    .pc-card-selected:hover {
+        border: 1px double lightgray;
+    }
+
+    .pc-card-selected .pc-img,
+    .pc-card-selected .pc-card-content {
+        opacity: 0.5;
+    }
+
+    .card-selected-red {
+        border: 1px solid #FC3C3C;
+    }
+
+    .pv_questionnaire_name {
+        font-size: 9px;
+        font-weight: 600;
+        text-align: center;
+        padding-top: 15px;
+    }
+
+    .questionaire-option {
+        font-weight: 400;
+        font-size: 14px;
+        color: var(--dofy-color-secondary-new);
+
+    }
+    .card-selected-theme {
+        border: 1px solid var(--dofy-color-primary-new);
+    }
+}
+
+.sd_devicesname {
+    background-color: #F2F5FC;
+    border: 1px solid #C3D0DE;
+    color: #425367;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.sd_devicesname ion-icon {
+    color: #adb4bc;
+}
+
+@media (max-width:600px) {
+    .sd_devicesname {
+        font-size: 12px;
+    }
+
+    .sd_devicesname ion-icon {
+        font-size: 15px;
+        color: #adb4bc;
+    }
+
+    .questionaire-option {
+        font-weight: 400;
+        font-size: 13px !important;
+        margin-bottom: 0px;
+    }
+
+    .sd_moblie-device {
+        display: none;
+    }
+
+    .sd_margin-mob {
+        margin-top: 5px;
+    }
+
+    .pc-card {
+        height: 120px;
+        border-radius: 10px;
+        background-color: #FFFFFF;
+        border: 1px solid #C3D0DE;
+        box-shadow: none;
+        cursor: pointer;
+        text-align: center;
+        padding: 15px 5px;
+    }
+
+    .pc-card-selected {
+        border: 1px double lightgray;
+    }
+
+    .pc-card-selected:hover {
+        border: 1px double lightgray;
+    }
+
+    .pc-card-selected .pc-img,
+    .pc-card-selected .pc-card-content {
+        opacity: 0.5;
+    }
+    .card-selected-red {
+        border: 1px solid #FC3C3C;
+    }
+    .card-selected-theme {
+        border: 1px solid var(--dofy-color-primary-new);
+    }
+    .pv_questionnaire_name {
+        font-size: 9px;
+        font-weight: 600;
+        text-align: center;
+        padding-top: 1px;
+    }
+}

@@ -1,0 +1,12 @@
+.f-assignbtn {
+    border-radius: 50px;
+    margin-left: 100px;
+}
+
+.filter-items {
+    --padding-start: 0px !important;
+    --inner-padding-end: 0px !important;
+}
+.fl-Icon{
+    float: right;
+}

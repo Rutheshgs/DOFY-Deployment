@@ -1,0 +1,40 @@
+{
+    "in_en": {
+        "Please_Tell_us_the_reason" :"Please Tell us the reason",
+        "Please_provide_reason": "Please provide reason *",
+        "Cancel": "Cancel",
+        "Submit":"Submit",
+        "Call_to_us": "Call to us",
+        "Cancel_your_order": "Cancel your order",
+        "Confirmation" : "Confirmation",
+        "Your_cancellation_request" :"Your cancellation request has been initiated.Do you want really cancel this order?",
+        "Yes":"Yes",
+        "No":"No"
+    },
+    "ae_ar": {
+        "Please_Tell_us_the_reason" :"من فضلك قل لنا السبب",
+        "Please_provide_reason": "يرجى تقديم السبب *",
+        "Cancel": "إلغ",
+        "Submit":"يُقدِّم",
+        "Call_to_us": "اتصل بنا",
+        "Cancel_your_order": "قم بإلغاء طلبك",
+        "Confirmation" : "تأكيد ",
+        "Your_cancellation_request" :"تم بدء طلب الإلغاء الخاص بك. هل تريد حقًا إلغاء هذا الطلب؟",
+        "Yes":"نعم",
+        "No":"لا"
+
+    },
+    "ae_en": {
+        "Please_Tell_us_the_reason" :"Please Tell us the reason",
+        "Please_provide_reason": "Please provide reason *",
+        "Cancel": "Cancel",
+        "Submit":"Submit",
+        "Call_to_us": "Call to us",
+        "Cancel_your_order": "Cancel your order",
+        "Confirmation" : "Confirmation",
+        "Your_cancellation_request" :"Your cancellation request has been initiated.Do you want really cancel this order?",
+        "Yes":"Yes",
+        "No":"No"
+
+    }
+}

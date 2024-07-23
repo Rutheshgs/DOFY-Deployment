@@ -1,0 +1,32 @@
+{
+    "in_en": {
+        "Enter_OTP": "Enter OTP",
+        "Incorrect_OTP": "Incorrect OTP",
+        "Verify_OTP": "Verify OTP",
+        "Dont_Have_account":"You Don't have account?",
+        "Signup_here":"Signup here",
+        "Back_to_Signin":"Back to Signin",
+        "OTP_Verification":"OTP Verification",
+        "We_Will_Send_Otp":"We will send otp to your given mail id,enter here to verify"
+    },
+    "ae_ar": {
+        "Enter_OTP": "أدخل OTP",
+        "Incorrect_OTP": "OTP غير صحيح",
+        "Verify_OTP": "تحقق من OTP",
+        "Dont_Have_account":"ليس لديك حساب؟",
+        "Signup_here":"سجل هنا",
+        "Back_to_Signin":"العودة إلى تسجيل الدخول",
+        "OTP_Verification":"التحقق من OTP",
+        "We_Will_Send_Otp":"سوف نرسل otp إلى معرف البريد الخاص بك أدخل هنا للتحقق"
+    },
+    "ae_en": {
+        "Enter_OTP": "Enter OTP",
+        "Incorrect_OTP": "Incorrect OTP",
+        "Verify_OTP": "Verify OTP",
+        "Dont_Have_account":"You Don't have account?",
+        "Signup_here":"Signup here",
+        "Back_to_Signin":"Back to Signin",  
+        "OTP_Verification":"OTP Verification",
+        "We_Will_Send_Otp":"We will send otp to your given mail id,enter here to verify"
+    }
+}

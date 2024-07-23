@@ -1,0 +1,51 @@
+.wsp-header-row {
+    background-color: var(--dofy-color-dark);
+    height: 150px;
+    color: white;
+}
+
+.wsp-padding {
+    padding: 30px 0px 30px 10px;
+}
+
+.wsp-header-text {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.wsp-row {
+    background-color: white;
+    margin-top: -55px;
+    width: 95%;
+    margin-left: 2.5%
+}
+
+.wsp-text {
+    text-align: justify;
+}
+
+.wsp-img {
+    height: 80px;
+    width: 100%;
+}
+
+@media screen and (max-width:510px) {
+    .wsp-img {
+        height: 70px;
+        width: 100%;
+    }
+}
+
+.wsp-col {
+    border: solid 1px gray;
+}
+
+.wsp-list {
+    font-size: 15px;
+}
+
+@media screen and (max-width:510px) {
+    .wsp-list {
+        font-size: 11px;
+    }
+}

@@ -1,0 +1,145 @@
+.aligntext {
+    position: fixed;
+    margin-right: 145px;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+
+.sell-devices-btn-back button {
+    background-color: var(--dofy-color-primary-new);
+    border: 0.5px solid var(--dofy-color-primary-new);
+    border-radius: 5px;
+}
+
+.aligntextedc {
+    position: fixed;
+    margin: -15px;
+    margin-bottom: -15px;
+    margin-right: -5px;
+    padding: 3px;
+}
+.addhome{
+    position:absolute;
+    bottom:0;
+    text-align: end;
+    right: 0;
+}
+
+.address-edit {
+    border: 0.5px solid #1A4FBF;
+    background: white;
+}
+
+/* .address-form-cols {
+    margin-top: -6px;
+    padding-bottom: 10px
+
+} */
+
+@media screen and (max-width: 2560px) {
+    .address-form-cols {
+        margin-top: -6px;
+        margin-bottom: 10px;
+        
+    }
+
+    .address-form-inline {
+        margin-top: 18px;
+        margin-bottom: 18px;
+
+
+    }
+}
+
+.address-edit .address-form-inline {
+    outline: 1px solid #3333;
+    border-radius: 5px;
+    color: black;
+    margin-bottom: 20px;
+    min-height: 20px !important;
+    width: 100%;
+}
+
+.mui-style-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+    height: 10px !important;
+}
+
+.address-form-cols .MuiAutocomplete-root label {
+    margin-top: -7px;
+}
+
+.address-form-cols .MuiAutocomplete-root .MuiFormControl-root .MuiInputBase-root {
+    height: 40px !important;
+}
+
+
+.custom-alert-order .alert-title {
+    color: var(--dofy-color-primary-new) !important;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+}
+
+.custom-alert-order .alert-sub-title{
+    font-size: 12px !important;
+    font-weight: 600 !important;
+}
+
+.address-choose-address {
+    border-radius: 10px;
+    background: #f2f5fc;
+    color: var(--dofy-color-primary-new);
+    font-weight: 600;
+    padding: 15px;
+}
+
+.address-card {
+    background: white;
+    border: 0.5px solid #1A4FBF;
+    padding: 10px;
+    height: max-content;
+    cursor: pointer;
+}
+
+.address-controlls-row {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.address-card ion-text {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.address-controlls {
+    color: var(--dofy-color-primary-new);
+    font-size: 13px !important;
+    text-transform: uppercase;
+}
+
+.add-address-card .address-card {
+    background: #f2f5fc;
+    height: 90%;
+    text-align: center;
+}
+
+.add-address-card .address-card button {
+    background: var(--dofy-color-primary-new);
+    margin-top: 23%;
+}
+
+.address-form-inline {
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+
+
+.address-header {
+    color: var(--dofy-color-primary-new);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.address-form{
+    padding: unset;
+}

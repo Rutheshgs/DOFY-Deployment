@@ -1,0 +1,27 @@
+{
+    "in_en": {
+        "Areas_Covered": "Areas Covered",
+        "Orders_Completed":"Orders Completed",
+        "Cash_given_and_Counting":"Cash given and Counting..",
+        "App_Downloads":"App Downloads",
+        "Nearing":"Nearing"
+
+    },
+    "ae_ar": {
+        "Areas_Covered": "المجالات التي تغطيها",
+        "Orders_Completed":"الطلبات المنجزة",
+        "Cash_given_and_Counting":"النقد الممنوح والعد ..",
+        "App_Downloads":"تنزيلات التطبيق",
+        "Nearing":"يقترب"
+        
+    },
+    "ae_en": {
+        "Areas_Covered": "Areas Covered",
+        "Orders_Completed":"Orders Completed",
+        "Cash_given_and_Counting":"Cash given and Counting..",
+        "App_Downloads":"App Downloads",
+        "Nearing":"Nearing"
+
+
+    }
+}

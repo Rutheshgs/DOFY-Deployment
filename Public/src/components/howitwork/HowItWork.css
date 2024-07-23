@@ -1,0 +1,61 @@
+.hiw-grid {
+    background-color: var(--dofy-color-secondary-bg-new);
+}
+
+.hiw-card-1 {
+    width: 150px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px;
+    margin: 10px auto;
+}
+
+.hiw-card-2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #F2F4F8;
+    display: table-cell;
+    vertical-align: middle;
+    box-shadow: none;
+}
+
+.hiw-non-view {
+    display: none !important;
+}
+
+.hiw-card-1:hover .hiw-card-2,
+.hiw-card-1:hover {
+    background-color: var(--dofy-color-primary-new);
+}
+
+.hiw-card-1:hover .hiw-view {
+    display: none !important;
+}
+
+.hiw-card-1:hover .hiw-non-view {
+    margin: 0px auto;
+    display: block !important;
+}
+
+.hiw-header-1 {
+    font-weight: bold;
+    font-size: large;
+    color: var(--dofy-color-secondary-new);
+}
+
+.hiw-header-2 {
+    font-size: small;
+    color: var(--dofy-color-secondary-new);
+}
+
+.hiw-card-header-1 {
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--dofy-color-secondary-new);
+}
+
+.hiw-card-header-2 {
+    font-size: 12px;
+    color: var(--dofy-color-secondary-new);
+}
